@@ -1,0 +1,7 @@
+<map id="SkillBehaviour::normalCardAttack" name="SkillBehaviour::normalCardAttack">
+<area shape="rect" id="node1" title=" " alt="" coords="198,73,381,112"/>
+<area shape="rect" id="node2" href="$classNormal.html#a73efe550c28c446c190e6230a23a96ba" title=" " alt="" coords="11,5,145,31"/>
+<area shape="rect" id="node3" href="$classLifeDrain.html#a854014273c3e5757ca631a8d5b013e4e" title=" " alt="" coords="5,55,150,80"/>
+<area shape="rect" id="node4" href="$classStun.html#a3b841f7a1f09ced15dc3c429806bbd89" title=" " alt="" coords="18,104,137,129"/>
+<area shape="rect" id="node5" href="$classWeaken.html#a5cbfc9c4112c234425cdd4ae9af06fd5" title=" " alt="" coords="8,153,148,179"/>
+</map>

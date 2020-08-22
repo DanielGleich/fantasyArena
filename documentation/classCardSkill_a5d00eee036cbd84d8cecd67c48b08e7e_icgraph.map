@@ -1,0 +1,5 @@
+<map id="CardSkill::normalBehaviour" name="CardSkill::normalBehaviour">
+<area shape="rect" id="node2" href="$classCardSkillLifeDrain.html#a3f33756a0dba199e3c40f1d8eb68e0be" title="CardSkillLifeDrain\l::playAgainst" alt="" coords="269,5,396,47"/>
+<area shape="rect" id="node3" href="$classCardSkillStun.html#ac123c8d992e18566fe5ec50a66203acf" title="CardSkillStun::playAgainst" alt="" coords="243,71,422,98"/>
+<area shape="rect" id="node4" href="$classCardSkillWeaken.html#acd11f1b801e3acd130e3590479b53417" title="CardSkillWeaken::playAgainst" alt="" coords="233,122,432,149"/>
+</map>

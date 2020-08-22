@@ -1,0 +1,11 @@
+<map id="Game::initMonster" name="Game::initMonster">
+<area shape="rect" id="node1" title=" " alt="" coords="5,205,136,231"/>
+<area shape="rect" id="node2" href="$classDatabase.html#ab25c5b2bc1946ac964a716026c6b929b" title=" " alt="" coords="198,5,385,44"/>
+<area shape="rect" id="node3" href="$classDatabase.html#a6f60ba569b9cf33a4cc701df8018edec" title=" " alt="" coords="190,68,394,93"/>
+<area shape="rect" id="node4" href="$classDatabase.html#a9f6a7a25c611d1d781d72c9844667037" title=" " alt="" coords="192,117,392,156"/>
+<area shape="rect" id="node5" href="$classDatabase.html#a464f760edd6193f08ab3d450b32130a8" title=" " alt="" coords="184,180,400,205"/>
+<area shape="rect" id="node6" href="$classDatabase.html#a7d2f0be468c98c30d4c7fdc8052aa153" title=" " alt="" coords="196,229,387,255"/>
+<area shape="rect" id="node7" href="$classDatabase.html#ab4edcf711028d49cbea30bd481ae3a3f" title=" " alt="" coords="192,279,391,304"/>
+<area shape="rect" id="node8" href="$classDatabase.html#a5cc3be5540f8509ce661c8e9622dca6d" title=" " alt="" coords="201,328,382,353"/>
+<area shape="rect" id="node9" href="$classDatabase.html#ab287d0f11bee2a9197423b6bed8f49b5" title=" " alt="" coords="191,377,393,403"/>
+</map>

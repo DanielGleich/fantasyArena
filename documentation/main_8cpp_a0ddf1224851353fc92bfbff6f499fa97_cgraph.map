@@ -1,0 +1,52 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,505,56,531"/>
+<area shape="rect" id="node2" href="$classController.html#a87d4691f2730fd6263d16622e14780c9" title=" " alt="" coords="104,505,209,531"/>
+<area shape="rect" id="node3" href="$classController.html#af888a35f7a377692726d81332edf08ab" title=" " alt="" coords="257,505,401,531"/>
+<area shape="rect" id="node4" href="$classController.html#ab1a0a6b3b8fdd3c4c669c39f0a1f624b" title=" " alt="" coords="481,356,634,381"/>
+<area shape="rect" id="node5" href="$classController.html#abb951abd63b7bb6dcd04fff7299a5d37" title=" " alt="" coords="504,405,611,431"/>
+<area shape="rect" id="node7" href="$classWidget.html#a0df77eefae0de36ce5fb4da04d4abee6" title=" " alt="" coords="513,455,602,480"/>
+<area shape="rect" id="node9" href="$classGame.html#a61506c03b35e21f5078997b7d5f80ea2" title=" " alt="" coords="1030,472,1113,497"/>
+<area shape="rect" id="node45" href="$classArena.html#a249287d698837506f2b7579d49ada1c0" title="Gibt die Instanz des Singletons zurück." alt="" coords="516,556,599,581"/>
+<area shape="rect" id="node49" href="$classController.html#a74845f27b365b33d89ae0a7561c8e2ac" title=" " alt="" coords="1208,579,1356,604"/>
+<area shape="rect" id="node50" href="$classController.html#a179d437525b74da1f335e124644398e9" title=" " alt="" coords="449,685,667,711"/>
+<area shape="rect" id="node6" href="$classController.html#a0682082ca0551c059d3ad8dc72fe93a4" title=" " alt="" coords="715,405,935,431"/>
+<area shape="rect" id="node8" href="$classWidget.html#ab0f05949f1fa8ca233137fc4119c7401" title=" " alt="" coords="769,455,881,480"/>
+<area shape="rect" id="node10" href="$classGame.html#a3b4c8aab575024b6f3e2d648c6e17418" title=" " alt="" coords="1231,480,1332,505"/>
+<area shape="rect" id="node11" href="$classDatabase.html#a3f608f3a6735ed24e9a3fe39652d5e0c" title=" " alt="" coords="1428,480,1533,505"/>
+<area shape="rect" id="node13" href="$classGame.html#abf0598736d0752b99711691b0ef8203a" title="Initialisisiert ein neues Spiel; alle Daten werden zurückgesetzt." alt="" coords="1404,551,1558,576"/>
+<area shape="rect" id="node12" href="$classDatabase.html#a25acd0ba8ce00ebc6b331568d81e4230" title=" " alt="" coords="1617,480,1760,505"/>
+<area shape="rect" id="node14" href="$classGame.html#ab684b380c7d3f3577e2fb80006415297" title=" " alt="" coords="1629,536,1747,561"/>
+<area shape="rect" id="node36" href="$classGame.html#a1228c49ac7a9f9d8d41f28ee5adb6034" title="Eine neue Spielrunde wird gestartet." alt="" coords="1606,659,1771,684"/>
+<area shape="rect" id="node15" href="$classGame.html#ac507aeb4b5d561cdfdf3e3df5884bf1a" title="Alle Karten des Spielers werden entfernt, alle vorhandenen Karten werden gelöscht...." alt="" coords="1871,255,2002,280"/>
+<area shape="rect" id="node27" href="$classGame.html#ab235ca67bfe5f6d2a025a3172026a8ef" title=" " alt="" coords="1865,511,2008,536"/>
+<area shape="rect" id="node33" href="$classGame.html#ae39e8929a70458e0a8940f96fda8916a" title=" " alt="" coords="1870,560,2003,585"/>
+<area shape="rect" id="node16" href="$classGame.html#a1d6b0f25c8fa12f94b4e7c9cf9269f2c" title=" " alt="" coords="2149,205,2285,231"/>
+<area shape="rect" id="node17" href="$classGame.html#a17568b671bbe0059ead6fa14caa60161" title="Alle Karteninformationen aus der Datenbank auslesen und entsprechende Instanzen für die Liste Game::c..." alt="" coords="2158,255,2276,280"/>
+<area shape="rect" id="node18" href="$classDatabase.html#a96b9ebf9adf064b3faa2cdbf781dd3e9" title=" " alt="" coords="2401,5,2576,44"/>
+<area shape="rect" id="node19" href="$classDatabase.html#a1a2dfddbf54556d89793b8691656771c" title=" " alt="" coords="2395,68,2582,107"/>
+<area shape="rect" id="node20" href="$classDatabase.html#aab28507a2ab62cd24939d484e8933410" title=" " alt="" coords="2380,131,2597,156"/>
+<area shape="rect" id="node21" href="$classDatabase.html#a4beef0173f64ff642d8f258390e7d818" title=" " alt="" coords="2402,180,2574,205"/>
+<area shape="rect" id="node22" href="$classDatabase.html#aafa5f8484aa80e6e1ddd621af936a0b7" title=" " alt="" coords="2397,229,2580,255"/>
+<area shape="rect" id="node23" href="$classDatabase.html#a946ad3e2dd50d58c786d1cc3989cb847" title=" " alt="" coords="2395,279,2582,304"/>
+<area shape="rect" id="node24" href="$classDatabase.html#a684fd73e3d7fb56dc4332ee56dffa0dd" title=" " alt="" coords="2397,328,2580,353"/>
+<area shape="rect" id="node25" href="$classDatabase.html#a0e3d4193afc21f385ca137779c1d2d8b" title=" " alt="" coords="2394,377,2583,403"/>
+<area shape="rect" id="node26" href="$classDatabase.html#a7828e022aa06a091ceebcf73fddf90c5" title=" " alt="" coords="2386,427,2591,452"/>
+<area shape="rect" id="node28" href="$classGame.html#a2cfe1d491853398cc5f0282fe52a8ef7" title=" " alt="" coords="2142,461,2292,487"/>
+<area shape="rect" id="node29" href="$classGame.html#aac70646b5a906fcbe9a6da337df5a345" title=" " alt="" coords="2152,511,2282,536"/>
+<area shape="rect" id="node30" href="$classDatabase.html#ab25c5b2bc1946ac964a716026c6b929b" title=" " alt="" coords="2395,476,2582,515"/>
+<area shape="rect" id="node31" href="$classDatabase.html#a6f60ba569b9cf33a4cc701df8018edec" title=" " alt="" coords="2386,539,2590,564"/>
+<area shape="rect" id="node32" href="$classDatabase.html#a9f6a7a25c611d1d781d72c9844667037" title=" " alt="" coords="2388,588,2588,627"/>
+<area shape="rect" id="node34" href="$classGame.html#ad7fda0270cd6c6b9d6d9d9140a39230e" title=" " alt="" coords="2129,560,2305,585"/>
+<area shape="rect" id="node35" href="$classGame.html#aacfbc577a0c8af2c1b02d554bfc24f69" title=" " alt="" coords="2139,609,2295,635"/>
+<area shape="rect" id="node37" href="$classPlayer.html#ae39c2137ec2735cf542eb9a58a73168f" title=" " alt="" coords="1851,609,2022,635"/>
+<area shape="rect" id="node38" href="$classPlayer.html#acbd810213aaeb69c210ed38c3f1a45c3" title=" " alt="" coords="1853,659,2020,684"/>
+<area shape="rect" id="node40" href="$classPlayer.html#aa223c36afccfc880a992e890a389889c" title=" " alt="" coords="2390,696,2586,735"/>
+<area shape="rect" id="node43" href="$classGame.html#a59f995481e3ab6852d2283106f0aa0b8" title=" " alt="" coords="1819,760,2054,785"/>
+<area shape="rect" id="node39" href="$classPlayer.html#a34874a1e9fdcbaf966b8f20db1dc6064" title=" " alt="" coords="2155,659,2279,684"/>
+<area shape="rect" id="node41" href="$classPlayer.html#a142f2c83ddb1e3f09622fd9044a7b602" title=" " alt="" coords="2645,707,2781,732"/>
+<area shape="rect" id="node42" href="$config_8h.html#ad5755de87d8b9181d2d4f9915dd918b4" title=" " alt="" coords="2829,735,2896,760"/>
+<area shape="rect" id="node44" href="$classGame.html#a467e33ff03470221dc42d3905c55c96f" title=" " alt="" coords="2102,811,2332,836"/>
+<area shape="rect" id="node46" href="$classArena.html#ac231225d501b4eb32e92b6d5bad0da36" title=" " alt="" coords="775,556,875,581"/>
+<area shape="rect" id="node47" href="$classArena.html#a28d4f5069970c8ac29dc68c75cfff2aa" title=" " alt="" coords="989,521,1154,560"/>
+<area shape="rect" id="node48" href="$classArena.html#aec21ae15a456b638c59d6303960db761" title=" " alt="" coords="983,584,1160,609"/>
+</map>

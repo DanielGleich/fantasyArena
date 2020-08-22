@@ -1,0 +1,7 @@
+<map id="Someone::reduceDefenseBy" name="Someone::reduceDefenseBy">
+<area shape="rect" id="node2" href="$classSomeone.html#afcbc11ded0b3ca8eabc7714d2a3a5b44" title="Someone::beAttacked" alt="" coords="243,71,393,98"/>
+<area shape="rect" id="node3" href="$classCardSkill.html#a5d00eee036cbd84d8cecd67c48b08e7e" title="CardSkill::normalBehaviour" alt="" coords="441,71,621,98"/>
+<area shape="rect" id="node4" href="$classCardSkillLifeDrain.html#a3f33756a0dba199e3c40f1d8eb68e0be" title="CardSkillLifeDrain\l::playAgainst" alt="" coords="705,5,832,47"/>
+<area shape="rect" id="node5" href="$classCardSkillStun.html#ac123c8d992e18566fe5ec50a66203acf" title="CardSkillStun::playAgainst" alt="" coords="679,71,858,98"/>
+<area shape="rect" id="node6" href="$classCardSkillWeaken.html#acd11f1b801e3acd130e3590479b53417" title="CardSkillWeaken::playAgainst" alt="" coords="669,122,868,149"/>
+</map>

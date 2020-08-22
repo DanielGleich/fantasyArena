@@ -1,0 +1,13 @@
+<map id="Monster::Monster" name="Monster::Monster">
+<area shape="rect" id="node1" title="Level (Gefährlichkeit) des Monsters." alt="" coords="5,228,130,253"/>
+<area shape="rect" id="node2" href="$classMonster.html#a86eca5eba50c7e2fa1b0b5989e3d1423" title=" " alt="" coords="217,5,331,31"/>
+<area shape="rect" id="node3" href="$classMonster.html#a119972b7f4c2f2de1148c9ee467a43ab" title=" " alt="" coords="185,55,362,80"/>
+<area shape="rect" id="node4" href="$classMonster.html#a013d2d7c6aa848fc2bff8145f65e5086" title=" " alt="" coords="191,104,356,129"/>
+<area shape="rect" id="node5" href="$classMonster.html#a2666224da6c4aee6358684c80977868e" title=" " alt="" coords="178,153,369,179"/>
+<area shape="rect" id="node6" href="$classMonster.html#a7087d71f2d9561e101d9b47cd6e093da" title=" " alt="" coords="185,203,362,228"/>
+<area shape="rect" id="node7" href="$classMonster.html#a5dfafb930162c94f040ca11db8472e85" title=" " alt="" coords="221,252,326,277"/>
+<area shape="rect" id="node8" href="$classMonster.html#a61c99d0b747a22299d8f7e5c79e85e73" title=" " alt="" coords="210,301,337,327"/>
+<area shape="rect" id="node9" href="$classSomeone.html#a2ed5a9f06446c09553c9677f05f1dd94" title=" " alt="" coords="214,351,333,376"/>
+<area shape="rect" id="node10" href="$classSomeone.html#af8c9e0dc9e1918fe56752e5913747fa0" title=" " alt="" coords="202,400,345,425"/>
+<area shape="rect" id="node11" href="$classMonster.html#a868b0e7668fcdac0584177e87be9d088" title=" " alt="" coords="208,449,339,475"/>
+</map>

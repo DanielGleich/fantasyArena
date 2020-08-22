@@ -1,0 +1,4 @@
+<map id="Arena::drawNameOfHandCard" name="Arena::drawNameOfHandCard">
+<area shape="rect" id="node1" title="Der Name der übergebenen Handkarte wird geschrieben." alt="" coords="5,5,209,31"/>
+<area shape="rect" id="node2" href="$classCard.html#a8ddd3cf374b1ad37407c1a44518a6a10" title=" " alt="" coords="257,5,369,31"/>
+</map>

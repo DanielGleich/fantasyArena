@@ -1,0 +1,11 @@
+<map id="Stun::attack" name="Stun::attack">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,97,129"/>
+<area shape="rect" id="node2" href="$classSomeone.html#ae68655a5dbfe3d7a9968f72cddafed9d" title=" " alt="" coords="164,55,318,80"/>
+<area shape="rect" id="node3" href="$classSkillBehaviour.html#af084290536c70661f9d95d525e94c78c" title=" " alt="" coords="145,104,336,129"/>
+<area shape="rect" id="node9" href="$classSomeone.html#a6825c06fd99eec4872d9682e0b797845" title=" " alt="" coords="164,153,317,179"/>
+<area shape="rect" id="node4" href="$classSkillBehaviour.html#af2b587278449afa31e7659ca3061eedc" title=" " alt="" coords="387,5,536,31"/>
+<area shape="rect" id="node5" href="$classSomeone.html#a0193c380cbb15f4cb4c0005f79417e09" title=" " alt="" coords="384,55,538,80"/>
+<area shape="rect" id="node6" href="$classSomeone.html#adb54ff063f5a5b38989d651efe9cd13f" title=" " alt="" coords="402,104,521,129"/>
+<area shape="rect" id="node7" href="$classSomeone.html#aed547554e728a73931cba3f22bac0f98" title=" " alt="" coords="384,153,538,179"/>
+<area shape="rect" id="node8" href="$classSomeone.html#a2ed5a9f06446c09553c9677f05f1dd94" title=" " alt="" coords="402,203,520,228"/>
+</map>

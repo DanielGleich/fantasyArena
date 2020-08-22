@@ -1,0 +1,11 @@
+<map id="Weaken::attack" name="Weaken::attack">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,118,129"/>
+<area shape="rect" id="node2" href="$classSomeone.html#a895135f095f5a3cbb5547e0ebed38954" title=" " alt="" coords="185,55,338,80"/>
+<area shape="rect" id="node3" href="$classSkillBehaviour.html#af084290536c70661f9d95d525e94c78c" title=" " alt="" coords="166,104,357,129"/>
+<area shape="rect" id="node9" href="$classSomeone.html#a105b39fbafc2617866d8e32dc5ac8732" title=" " alt="" coords="186,153,338,179"/>
+<area shape="rect" id="node4" href="$classSkillBehaviour.html#af2b587278449afa31e7659ca3061eedc" title=" " alt="" coords="408,5,557,31"/>
+<area shape="rect" id="node5" href="$classSomeone.html#a0193c380cbb15f4cb4c0005f79417e09" title=" " alt="" coords="405,55,559,80"/>
+<area shape="rect" id="node6" href="$classSomeone.html#adb54ff063f5a5b38989d651efe9cd13f" title=" " alt="" coords="423,104,542,129"/>
+<area shape="rect" id="node7" href="$classSomeone.html#aed547554e728a73931cba3f22bac0f98" title=" " alt="" coords="406,153,559,179"/>
+<area shape="rect" id="node8" href="$classSomeone.html#a2ed5a9f06446c09553c9677f05f1dd94" title=" " alt="" coords="423,203,542,228"/>
+</map>

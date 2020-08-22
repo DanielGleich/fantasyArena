@@ -1,0 +1,12 @@
+<map id="SkillBehaviour::getRange" name="SkillBehaviour::getRange">
+<area shape="rect" id="node1" title=" " alt="" coords="996,104,1167,129"/>
+<area shape="rect" id="node2" href="$classCard.html#a83b782777f43d4841158f4ab27e08cbb" title=" " alt="" coords="843,5,938,31"/>
+<area shape="rect" id="node3" href="$classCard.html#a1d76575aaa51a551347dc5b8fd278a5f" title=" " alt="" coords="833,55,948,80"/>
+<area shape="rect" id="node4" href="$classCard.html#a055195e202506fe06e3b50c9499c288a" title=" " alt="" coords="839,104,942,129"/>
+<area shape="rect" id="node9" href="$classCard.html#a55213530e38149af3728cae19c49f6fe" title=" " alt="" coords="837,153,944,179"/>
+<area shape="rect" id="node10" href="$classCard.html#a807895834bfc60d78f6929d5e3f78844" title=" " alt="" coords="835,203,946,228"/>
+<area shape="rect" id="node5" href="$classArena.html#adf3ddc7b02ab7dac33d625437539324f" title=" " alt="" coords="591,123,785,161"/>
+<area shape="rect" id="node6" href="$classArena.html#a26fe4f31361aeec54d6a0de8f2db006c" title=" " alt="" coords="389,129,543,155"/>
+<area shape="rect" id="node7" href="$classArena.html#a810e551c6bbd182f6a68a4f6caf303ab" title=" " alt="" coords="181,129,341,155"/>
+<area shape="rect" id="node8" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="5,129,133,155"/>
+</map>

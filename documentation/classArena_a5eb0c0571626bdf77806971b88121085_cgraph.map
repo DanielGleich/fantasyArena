@@ -1,0 +1,4 @@
+<map id="Arena::paintLevelOnMonster" name="Arena::paintLevelOnMonster">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,196,31"/>
+<area shape="rect" id="node2" href="$classMonster.html#ac8756c685263e922c9571204ab54eb75" title=" " alt="" coords="244,5,372,31"/>
+</map>

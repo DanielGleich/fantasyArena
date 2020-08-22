@@ -1,0 +1,4 @@
+<map id="Game::activateActiveMonster" name="Game::activateActiveMonster">
+<area shape="rect" id="node2" href="$classGame.html#a4596f7d5d41717c7d9d15401119749b5" title="Game::endPlayerMove" alt="" coords="248,5,403,32"/>
+<area shape="rect" id="node3" href="$classController.html#aec579b9ab43df3486be7e655aa7e92ff" title="Controller::endTurn" alt="" coords="451,5,584,32"/>
+</map>

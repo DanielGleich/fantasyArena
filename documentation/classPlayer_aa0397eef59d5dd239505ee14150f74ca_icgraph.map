@@ -1,0 +1,5 @@
+<map id="Player::getMaxEnergy" name="Player::getMaxEnergy">
+<area shape="rect" id="node1" title=" " alt="" coords="389,5,541,31"/>
+<area shape="rect" id="node2" href="$classArena.html#a151a9b263a01fee9baf7ef7035b43e31" title=" " alt="" coords="181,5,341,31"/>
+<area shape="rect" id="node3" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="5,5,133,31"/>
+</map>

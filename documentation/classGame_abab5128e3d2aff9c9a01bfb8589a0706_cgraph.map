@@ -1,0 +1,9 @@
+<map id="Game::initMonsterSkills" name="Game::initMonsterSkills">
+<area shape="rect" id="node2" href="$classDatabase.html#acbae80cbf238db0b691b3decda195f98" title="Database::getSkillIdsOfMonster" alt="" coords="215,21,423,47"/>
+<area shape="rect" id="node3" href="$classGame.html#a0c3c8e09d82ff49e6b312b08a77713fd" title="Game::initMonsterSkillAttack" alt="" coords="223,71,415,98"/>
+<area shape="rect" id="node6" href="$classGame.html#a4685b5ddfcb5413596242e695a0aeba8" title="Game::initMonsterSkillDefend" alt="" coords="221,130,417,157"/>
+<area shape="rect" id="node4" href="$classDatabase.html#ab25c5b2bc1946ac964a716026c6b929b" title="Database::getAttackChance\lOfMonster" alt="" coords="485,5,671,47"/>
+<area shape="rect" id="node5" href="$classDatabase.html#a6f60ba569b9cf33a4cc701df8018edec" title="Database::getAttackOfMonster" alt="" coords="477,71,679,98"/>
+<area shape="rect" id="node7" href="$classDatabase.html#a9f6a7a25c611d1d781d72c9844667037" title="Database::getDefenseChance\lOfMonster" alt="" coords="479,123,677,164"/>
+<area shape="rect" id="node8" href="$classDatabase.html#a464f760edd6193f08ab3d450b32130a8" title="Database::getDefenseOfMonster" alt="" coords="471,189,685,215"/>
+</map>

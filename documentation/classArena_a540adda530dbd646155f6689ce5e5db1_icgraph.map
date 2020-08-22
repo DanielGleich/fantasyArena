@@ -1,0 +1,6 @@
+<map id="Arena::setBrushForMonsterBorder" name="Arena::setBrushForMonsterBorder">
+<area shape="rect" id="node1" title=" " alt="" coords="627,5,812,44"/>
+<area shape="rect" id="node2" href="$classArena.html#a019536729d71593696d231d34cf7076c" title=" " alt="" coords="370,12,579,37"/>
+<area shape="rect" id="node3" href="$classArena.html#a53187edf7aad816c2d2543091a6ec8c6" title=" " alt="" coords="181,12,322,37"/>
+<area shape="rect" id="node4" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="5,12,133,37"/>
+</map>

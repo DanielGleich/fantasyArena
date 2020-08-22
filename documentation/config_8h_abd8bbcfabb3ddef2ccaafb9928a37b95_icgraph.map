@@ -1,0 +1,38 @@
+<map id="min" name="min">
+<area shape="rect" id="node1" title=" " alt="" coords="2846,430,2889,456"/>
+<area shape="rect" id="node2" href="$classLifeDrain.html#a854014273c3e5757ca631a8d5b013e4e" title=" " alt="" coords="460,462,605,488"/>
+<area shape="rect" id="node3" href="$config_8h.html#ad5755de87d8b9181d2d4f9915dd918b4" title=" " alt="" coords="2640,380,2707,405"/>
+<area shape="rect" id="node36" href="$config_8h.html#abd7020d7eb76e950ec9444ce149b0a0f" title=" " alt="" coords="2755,380,2798,405"/>
+<area shape="rect" id="node4" href="$classGame.html#a59f995481e3ab6852d2283106f0aa0b8" title=" " alt="" coords="2172,318,2408,344"/>
+<area shape="rect" id="node32" href="$classPlayer.html#a142f2c83ddb1e3f09622fd9044a7b602" title=" " alt="" coords="2456,380,2592,405"/>
+<area shape="rect" id="node5" href="$classGame.html#a1228c49ac7a9f9d8d41f28ee5adb6034" title="Eine neue Spielrunde wird gestartet." alt="" coords="1572,346,1737,372"/>
+<area shape="rect" id="node6" href="$classGame.html#ab476ca0f877e386d2ac15ce191afe1b6" title="Eine Handkarte wird gegen ein Monster ausgespielt." alt="" coords="914,169,1125,194"/>
+<area shape="rect" id="node8" href="$classGame.html#abf0598736d0752b99711691b0ef8203a" title="Initialisisiert ein neues Spiel; alle Daten werden zurückgesetzt." alt="" coords="1370,296,1524,321"/>
+<area shape="rect" id="node7" href="$classArena.html#a5e31f7b3d9d619103f954e646ecbcf96" title="Ereignis, welches durch das Loslassen einer Maustaste ausgelöst wird." alt="" coords="672,88,859,113"/>
+<area shape="rect" id="node9" href="$classGame.html#a3b4c8aab575024b6f3e2d648c6e17418" title=" " alt="" coords="1197,296,1298,321"/>
+<area shape="rect" id="node31" href="$classController.html#a74845f27b365b33d89ae0a7561c8e2ac" title=" " alt="" coords="1173,113,1322,138"/>
+<area shape="rect" id="node10" href="$classGame.html#a61506c03b35e21f5078997b7d5f80ea2" title=" " alt="" coords="978,312,1062,337"/>
+<area shape="rect" id="node11" href="$classArena.html#ac231225d501b4eb32e92b6d5bad0da36" title=" " alt="" coords="715,137,815,162"/>
+<area shape="rect" id="node13" href="$classController.html#af888a35f7a377692726d81332edf08ab" title=" " alt="" coords="257,24,401,49"/>
+<area shape="rect" id="node16" href="$classSkillBehaviour.html#ade91b0e8a4af4c588e62a773545a9499" title=" " alt="" coords="674,554,857,593"/>
+<area shape="rect" id="node20" href="$classSkillBehaviour.html#a313eeae3e4e6134f3b39c0b178cdcfdb" title=" " alt="" coords="664,186,866,225"/>
+<area shape="rect" id="node25" href="$classArena.html#a810e551c6bbd182f6a68a4f6caf303ab" title=" " alt="" coords="452,401,613,426"/>
+<area shape="rect" id="node27" href="$classArena.html#a53187edf7aad816c2d2543091a6ec8c6" title=" " alt="" coords="462,660,603,685"/>
+<area shape="rect" id="node28" href="$classArena.html#a151a9b263a01fee9baf7ef7035b43e31" title=" " alt="" coords="685,301,845,326"/>
+<area shape="rect" id="node29" href="$classArena.html#a730ef65a0b383f1f2b7fc2d7f028f955" title=" " alt="" coords="672,402,859,428"/>
+<area shape="rect" id="node30" href="$classArena.html#a09a32119b3d8eb7e392328d56f358ae3" title=" " alt="" coords="678,617,852,642"/>
+<area shape="rect" id="node12" href="$classArena.html#a249287d698837506f2b7579d49ada1c0" title="Gibt die Instanz des Singletons zurück." alt="" coords="491,24,574,49"/>
+<area shape="rect" id="node14" href="$classController.html#a87d4691f2730fd6263d16622e14780c9" title=" " alt="" coords="104,24,209,49"/>
+<area shape="rect" id="node15" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,24,56,49"/>
+<area shape="rect" id="node17" href="$classNormal.html#a73efe550c28c446c190e6230a23a96ba" title=" " alt="" coords="465,512,600,537"/>
+<area shape="rect" id="node18" href="$classStun.html#a3b841f7a1f09ced15dc3c429806bbd89" title=" " alt="" coords="473,561,592,586"/>
+<area shape="rect" id="node19" href="$classWeaken.html#a5cbfc9c4112c234425cdd4ae9af06fd5" title=" " alt="" coords="462,610,603,636"/>
+<area shape="rect" id="node21" href="$classNormal.html#a4c5be9314ad7a9db3ca96b956ada97e4" title=" " alt="" coords="454,73,611,98"/>
+<area shape="rect" id="node22" href="$classLifeDrain.html#ae2a9917306afa08f2ebbdaff8750a710" title=" " alt="" coords="449,122,616,148"/>
+<area shape="rect" id="node23" href="$classStun.html#af4dab4c9a0d7379dd4e0493bb6713384" title=" " alt="" coords="462,172,603,197"/>
+<area shape="rect" id="node24" href="$classWeaken.html#ac5fd5596ac9480cd1e3ec3277f71eb9d" title=" " alt="" coords="451,221,614,246"/>
+<area shape="rect" id="node26" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="265,401,392,426"/>
+<area shape="rect" id="node33" href="$classPlayer.html#aa223c36afccfc880a992e890a389889c" title=" " alt="" coords="2192,373,2388,412"/>
+<area shape="rect" id="node34" href="$classPlayer.html#a34874a1e9fdcbaf966b8f20db1dc6064" title=" " alt="" coords="2000,408,2124,433"/>
+<area shape="rect" id="node35" href="$classPlayer.html#acbd810213aaeb69c210ed38c3f1a45c3" title=" " alt="" coords="1785,408,1952,433"/>
+</map>

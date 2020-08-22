@@ -1,0 +1,11 @@
+<map id="CardSkillStun::playAgainst" name="CardSkillStun::playAgainst">
+<area shape="rect" id="node2" href="$classCardSkill.html#a5d00eee036cbd84d8cecd67c48b08e7e" title="CardSkill::normalBehaviour" alt="" coords="232,31,412,57"/>
+<area shape="rect" id="node10" href="$classSomeone.html#a6825c06fd99eec4872d9682e0b797845" title="Someone::setStunned" alt="" coords="247,81,397,108"/>
+<area shape="rect" id="node3" href="$classSomeone.html#ae9307981cad987deb005ced820a2e9ac" title="Someone::addDefense" alt="" coords="460,5,615,32"/>
+<area shape="rect" id="node4" href="$classSomeone.html#afcbc11ded0b3ca8eabc7714d2a3a5b44" title="Someone::beAttacked" alt="" coords="462,56,613,83"/>
+<area shape="rect" id="node5" href="$config_8h.html#a88c8a153e36970f7d089c1be5fdc7a40" title="lpLoss" alt="" coords="727,5,787,32"/>
+<area shape="rect" id="node6" href="$classSomeone.html#a4f9ac808034183753e44bf84ab7c2a28" title="Someone::reduceLpBy" alt="" coords="680,56,835,83"/>
+<area shape="rect" id="node8" href="$classSomeone.html#a21b0a8b2acfa13e77d221d45e540ca44" title="Someone::reduceDefenseBy" alt="" coords="663,107,852,133"/>
+<area shape="rect" id="node7" href="$classSomeone.html#a2ed5a9f06446c09553c9677f05f1dd94" title="Someone::setLp" alt="" coords="917,56,1035,83"/>
+<area shape="rect" id="node9" href="$classSomeone.html#aed547554e728a73931cba3f22bac0f98" title="Someone::setDefense" alt="" coords="900,107,1052,133"/>
+</map>

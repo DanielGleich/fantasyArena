@@ -1,0 +1,10 @@
+<map id="SkillBehaviour::getDefenseValue" name="SkillBehaviour::getDefenseValue">
+<area shape="rect" id="node1" title=" " alt="" coords="1282,24,1463,63"/>
+<area shape="rect" id="node2" href="$classCard.html#a83b782777f43d4841158f4ab27e08cbb" title=" " alt="" coords="1107,5,1202,31"/>
+<area shape="rect" id="node3" href="$classCard.html#ade635a8cc02094f74bad04bdb3b75c70" title=" " alt="" coords="1075,55,1234,80"/>
+<area shape="rect" id="node4" href="$classArena.html#a47fd76fa37e7e4839c0fba46930ac73a" title=" " alt="" coords="823,48,1027,87"/>
+<area shape="rect" id="node5" href="$classArena.html#a7f2661fe4df31b4720794422e1213b0b" title=" " alt="" coords="591,48,775,87"/>
+<area shape="rect" id="node6" href="$classArena.html#a26fe4f31361aeec54d6a0de8f2db006c" title=" " alt="" coords="389,55,543,80"/>
+<area shape="rect" id="node7" href="$classArena.html#a810e551c6bbd182f6a68a4f6caf303ab" title=" " alt="" coords="181,55,341,80"/>
+<area shape="rect" id="node8" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="5,55,133,80"/>
+</map>

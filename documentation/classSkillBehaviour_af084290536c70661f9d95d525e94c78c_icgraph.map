@@ -1,0 +1,7 @@
+<map id="SkillBehaviour::normalAttack" name="SkillBehaviour::normalAttack">
+<area shape="rect" id="node1" title=" " alt="" coords="171,80,362,105"/>
+<area shape="rect" id="node2" href="$classNormal.html#ac2055fd6811af76e96c27d1836eeca86" title=" " alt="" coords="11,5,118,31"/>
+<area shape="rect" id="node3" href="$classLifeDrain.html#a230f279c61dd99064f59f00191f78377" title=" " alt="" coords="5,55,123,80"/>
+<area shape="rect" id="node4" href="$classStun.html#aab61955b04fe0ffad02a163f5f391531" title=" " alt="" coords="18,104,110,129"/>
+<area shape="rect" id="node5" href="$classWeaken.html#ad1931db7c032abee15f389352553aef7" title=" " alt="" coords="8,153,121,179"/>
+</map>

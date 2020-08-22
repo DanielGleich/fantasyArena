@@ -1,0 +1,3 @@
+<map id="MonsterSkill" name="MonsterSkill">
+<area shape="rect" id="node2" href="$classSkill.html" title="{Skill\n|# skill\l# name\l|+ Skill()\l+ getSkillValue()\l+ setSkillValue()\l+ getSkillName()\l+ setSkillName()\l}" alt="" coords="7,5,127,156"/>
+</map>

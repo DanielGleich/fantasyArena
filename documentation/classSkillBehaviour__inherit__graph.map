@@ -1,0 +1,7 @@
+<map id="SkillBehaviour" name="SkillBehaviour">
+<area shape="rect" id="node1" title=" " alt="" coords="210,5,378,332"/>
+<area shape="rect" id="node2" href="$classLifeDrain.html" title=" " alt="" coords="5,380,132,480"/>
+<area shape="rect" id="node3" href="$classNormal.html" title=" " alt="" coords="156,380,283,480"/>
+<area shape="rect" id="node4" href="$classStun.html" title=" " alt="" coords="307,380,434,480"/>
+<area shape="rect" id="node5" href="$classWeaken.html" title=" " alt="" coords="457,380,584,480"/>
+</map>

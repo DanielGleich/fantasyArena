@@ -1,0 +1,4 @@
+<map id="Monster::setAttackValue" name="Monster::setAttackValue">
+<area shape="rect" id="node1" title=" " alt="" coords="178,5,343,31"/>
+<area shape="rect" id="node2" href="$classMonster.html#adf61c157d253c36c5858ab5ceda7326e" title="Level (Gefährlichkeit) des Monsters." alt="" coords="5,5,130,31"/>
+</map>

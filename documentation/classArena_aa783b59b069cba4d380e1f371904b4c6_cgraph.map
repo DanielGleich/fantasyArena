@@ -1,0 +1,51 @@
+<map id="Arena::refresh" name="Arena::refresh">
+<area shape="rect" id="node2" href="$classArena.html#a730ef65a0b383f1f2b7fc2d7f028f955" title="Arena::syncHandCardRects" alt="" coords="157,695,344,721"/>
+<area shape="rect" id="node48" href="$classArena.html#a09a32119b3d8eb7e392328d56f358ae3" title="Arena::syncMonsterRects" alt="" coords="163,771,338,797"/>
+<area shape="rect" id="node3" href="$classGame.html#a61506c03b35e21f5078997b7d5f80ea2" title="Game::get" alt="" coords="445,745,528,772"/>
+<area shape="rect" id="node45" href="$classGame.html#a78627f02c887cca69c96d145701387f7" title="Gibt die Instanz des Spielers zurück. " alt="" coords="427,593,547,620"/>
+<area shape="rect" id="node46" href="$classPlayer.html#a92bfa1ad89cbda4543de0425d95a90ed" title="Player::getHandCards" alt="" coords="411,644,562,671"/>
+<area shape="rect" id="node47" href="$classCardPosition.html#a0fcb822a53dba0bed2a9765330d04902" title="CardPosition::setCard" alt="" coords="411,695,562,721"/>
+<area shape="rect" id="node4" href="$classGame.html#a3b4c8aab575024b6f3e2d648c6e17418" title="Game::Game" alt="" coords="629,745,729,772"/>
+<area shape="rect" id="node5" href="$classDatabase.html#a3f608f3a6735ed24e9a3fe39652d5e0c" title="Database::get" alt="" coords="802,720,906,747"/>
+<area shape="rect" id="node7" href="$classGame.html#abf0598736d0752b99711691b0ef8203a" title="Initialisisiert ein neues Spiel; alle Daten werden zurückgesetzt. " alt="" coords="777,771,931,797"/>
+<area shape="rect" id="node6" href="$classDatabase.html#a25acd0ba8ce00ebc6b331568d81e4230" title="zeger auf die Singleton&#45;Instanz dieser Klasse " alt="" coords="989,720,1131,747"/>
+<area shape="rect" id="node8" href="$classGame.html#ab684b380c7d3f3577e2fb80006415297" title="Game::initGame" alt="" coords="1001,771,1119,797"/>
+<area shape="rect" id="node36" href="$classGame.html#a1228c49ac7a9f9d8d41f28ee5adb6034" title="Eine neue Spielrunde wird gestartet. " alt="" coords="979,925,1141,952"/>
+<area shape="rect" id="node9" href="$classGame.html#ac507aeb4b5d561cdfdf3e3df5884bf1a" title="Alle Karten des Spielers werden entfernt, alle vorhandenen Karten werden gelöscht. Dann werden die Karteninformationen aus der Datenbankausgelesen und entsprechend neue Karteninstanzen erstellt. " alt="" coords="1241,264,1371,291"/>
+<area shape="rect" id="node21" href="$classGame.html#ae39e8929a70458e0a8940f96fda8916a" title="Game::resetPlayer" alt="" coords="1241,745,1371,772"/>
+<area shape="rect" id="node33" href="$classGame.html#ab235ca67bfe5f6d2a025a3172026a8ef" title="Game::resetMonster" alt="" coords="1235,796,1377,823"/>
+<area shape="rect" id="node10" href="$classGame.html#a1d6b0f25c8fa12f94b4e7c9cf9269f2c" title="Game::deleteCards" alt="" coords="1517,213,1651,240"/>
+<area shape="rect" id="node11" href="$classGame.html#a17568b671bbe0059ead6fa14caa60161" title="Alle Karteninformationen aus der Datenbank auslesen und entsprechende Instanzen für die Liste Game::c..." alt="" coords="1525,264,1643,291"/>
+<area shape="rect" id="node12" href="$classDatabase.html#a4beef0173f64ff642d8f258390e7d818" title="Database::getIdsOfCards" alt="" coords="1767,5,1938,32"/>
+<area shape="rect" id="node13" href="$classDatabase.html#aafa5f8484aa80e6e1ddd621af936a0b7" title="Database::getNameOfCard" alt="" coords="1762,56,1943,83"/>
+<area shape="rect" id="node14" href="$classDatabase.html#a96b9ebf9adf064b3faa2cdbf781dd3e9" title="Database::getAttackValue\lOfCard" alt="" coords="1765,107,1940,149"/>
+<area shape="rect" id="node15" href="$classDatabase.html#a1a2dfddbf54556d89793b8691656771c" title="Database::getDefenseValue\lOfCard" alt="" coords="1759,173,1946,214"/>
+<area shape="rect" id="node16" href="$classDatabase.html#aab28507a2ab62cd24939d484e8933410" title="Database::getEnergyCostOfCard" alt="" coords="1745,239,1960,265"/>
+<area shape="rect" id="node17" href="$classDatabase.html#a946ad3e2dd50d58c786d1cc3989cb847" title="Database::getRangeOfCard" alt="" coords="1761,289,1945,316"/>
+<area shape="rect" id="node18" href="$classDatabase.html#a0e3d4193afc21f385ca137779c1d2d8b" title="Database::getSkillNameOfId" alt="" coords="1758,340,1947,367"/>
+<area shape="rect" id="node19" href="$classDatabase.html#a684fd73e3d7fb56dc4332ee56dffa0dd" title="Database::getSkillIdOfCard" alt="" coords="1761,391,1944,417"/>
+<area shape="rect" id="node20" href="$classDatabase.html#a7828e022aa06a091ceebcf73fddf90c5" title="Database::getSkillValueOfCard" alt="" coords="1751,441,1955,468"/>
+<area shape="rect" id="node22" href="$classGame.html#ad7fda0270cd6c6b9d6d9d9140a39230e" title="Game::setPlayerAttributes" alt="" coords="1496,695,1672,721"/>
+<area shape="rect" id="node32" href="$classGame.html#aacfbc577a0c8af2c1b02d554bfc24f69" title="Game::setPlayerCards" alt="" coords="1507,745,1661,772"/>
+<area shape="rect" id="node23" href="$classSomeone.html#af8c9e0dc9e1918fe56752e5913747fa0" title="Someone::setMaxLp" alt="" coords="1781,492,1924,519"/>
+<area shape="rect" id="node24" href="$classDatabase.html#aa89fe679384a61f2893e80d9d5d968b7" title="Database::getMaxLpOfPlayer" alt="" coords="1755,543,1950,569"/>
+<area shape="rect" id="node25" href="$classSomeone.html#a2ed5a9f06446c09553c9677f05f1dd94" title="Someone::setLp" alt="" coords="1794,593,1911,620"/>
+<area shape="rect" id="node26" href="$classDatabase.html#ab743c8203c0b7a752c996b0cbb890fe0" title="Database::getLpOfPlayer" alt="" coords="1768,644,1937,671"/>
+<area shape="rect" id="node27" href="$classPlayer.html#a71a561639b742c69d43068f9a167e3f4" title="Player::setEnergy" alt="" coords="1789,695,1916,721"/>
+<area shape="rect" id="node28" href="$classDatabase.html#a6ca4bdbde7e35b8439344b0f39eb5ed2" title="Database::getEnergyOfPlayer" alt="" coords="1755,745,1951,772"/>
+<area shape="rect" id="node29" href="$classPlayer.html#aa07a47df98e553f7f67d7c45d475ba3e" title="Player::setMaxEnergy" alt="" coords="1777,796,1928,823"/>
+<area shape="rect" id="node30" href="$classDatabase.html#a68070e6a944731d93583fe1c482acb0c" title="Database::getMaxEnergyOf\lPlayer" alt="" coords="1761,847,1945,889"/>
+<area shape="rect" id="node31" href="$classPlayer.html#a4a2b93da72c5669f4ba7972b1989b7cd" title="Player::setGold" alt="" coords="1797,913,1909,940"/>
+<area shape="rect" id="node34" href="$classGame.html#a2cfe1d491853398cc5f0282fe52a8ef7" title="Game::deleteMonster" alt="" coords="1511,796,1657,823"/>
+<area shape="rect" id="node35" href="$classGame.html#a0a1e2e30d5bce0fba8145db8cb6d1903" title="Game::initMonsters" alt="" coords="1516,847,1652,873"/>
+<area shape="rect" id="node37" href="$classPlayer.html#ae39c2137ec2735cf542eb9a58a73168f" title="Player::departHandCards" alt="" coords="1221,875,1391,901"/>
+<area shape="rect" id="node38" href="$classPlayer.html#aa223c36afccfc880a992e890a389889c" title="Player::shuffleDepartedCards\lIntoDeck" alt="" coords="1755,965,1950,1006"/>
+<area shape="rect" id="node41" href="$classPlayer.html#acbd810213aaeb69c210ed38c3f1a45c3" title="Player::drawToHandSize" alt="" coords="1223,976,1389,1003"/>
+<area shape="rect" id="node43" href="$classGame.html#a59f995481e3ab6852d2283106f0aa0b8" title="Game::generateNewActiveMonsters" alt="" coords="1189,1031,1423,1057"/>
+<area shape="rect" id="node39" href="$classPlayer.html#a142f2c83ddb1e3f09622fd9044a7b602" title="Player::shuffleDeck" alt="" coords="2008,976,2145,1003"/>
+<area shape="rect" id="node40" href="$config_8h.html#ad5755de87d8b9181d2d4f9915dd918b4" title="random" alt="" coords="2193,1004,2259,1031"/>
+<area shape="rect" id="node42" href="$classPlayer.html#a34874a1e9fdcbaf966b8f20db1dc6064" title="Player::drawCard" alt="" coords="1523,976,1645,1003"/>
+<area shape="rect" id="node44" href="$classGame.html#a967b91bfbb2bfdec800b473283fe9278" title="Game::getMonsterOfLevelBetween" alt="" coords="1471,1081,1697,1108"/>
+<area shape="rect" id="node49" href="$classGame.html#aa3e506240b46a60dab1bbffcb38299a4" title="Gibt Game::activeMonster zurück. " alt="" coords="403,796,570,823"/>
+<area shape="rect" id="node50" href="$classMonsterPosition.html#a4ca7a8959cced0539ca30e6f0c4b3dff" title="MonsterPosition::setMonster" alt="" coords="392,847,581,873"/>
+</map>

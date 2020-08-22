@@ -1,0 +1,8 @@
+<map id="Someone::getMaxLp" name="Someone::getMaxLp">
+<area shape="rect" id="node1" title=" " alt="" coords="645,55,790,80"/>
+<area shape="rect" id="node2" href="$classLifeDrain.html#a854014273c3e5757ca631a8d5b013e4e" title=" " alt="" coords="420,5,566,31"/>
+<area shape="rect" id="node3" href="$classArena.html#a019536729d71593696d231d34cf7076c" title=" " alt="" coords="389,55,597,80"/>
+<area shape="rect" id="node6" href="$classArena.html#a151a9b263a01fee9baf7ef7035b43e31" title=" " alt="" coords="181,105,341,131"/>
+<area shape="rect" id="node4" href="$classArena.html#a53187edf7aad816c2d2543091a6ec8c6" title=" " alt="" coords="190,56,331,81"/>
+<area shape="rect" id="node5" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="5,81,133,107"/>
+</map>

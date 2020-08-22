@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>FantasyArena: card.cpp Quellcode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">FantasyArena
+   </div>
+   <div id="projectbrief">HBFIO</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Suchen');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('card_8cpp_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">card.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="card_8cpp.html">gehe zur Dokumentation dieser Datei</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="card_8h.html">card.h</a>&quot;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/**********************************************************************\</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">|                                                                      |</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">|   Card                                                               |</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">|   - Modell zu den Spielkarten                                        |</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">|                                                                      |</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">\**********************************************************************/</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">void Card::debug()</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">{</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">  if ( !DEBUG )</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    return;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">  qDebug()&lt;&lt;&quot;Karten-Information&quot;;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">  qDebug()&lt;&lt;&quot;---------------------------------&quot;;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">  qDebug()&lt;&lt;&quot;Name:          &quot;&lt;&lt;name;</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">  qDebug()&lt;&lt;&quot;Range:         &quot;&lt;&lt;range;</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">  qDebug()&lt;&lt;&quot;Energiekosten: &quot;&lt;&lt;energyCost;</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">  qDebug()&lt;&lt;&quot;AttackValue:   &quot;&lt;&lt;skill-&gt;getAttackValue();</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">  qDebug()&lt;&lt;&quot;DefenseValue:  &quot;&lt;&lt;skill-&gt;getDefenseValue();</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">  if ( !skill )</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">  {</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">    qDebug()&lt;&lt;&quot;SkillName:     &quot;&lt;&lt;skill-&gt;getSkillName();</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">    qDebug()&lt;&lt;&quot;SkillName:     &quot;&lt;&lt;skill-&gt;getSkillValue();</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">    qDebug()&lt;&lt;&quot;SkillValue:    &quot;&lt;&lt;skill-&gt;getSkillValue();</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">  }</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">  qDebug()&lt;&lt;&quot;\n&quot;;</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">}</span></div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">*/</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classCard.html#aef78e4edf2cf95c8cc3c7d19d3a35f54">   33</a></span>&#160;<a class="code" href="classCard.html#aef78e4edf2cf95c8cc3c7d19d3a35f54">Card::Card</a>( <span class="keywordtype">int</span> <span class="keywordtype">id</span>, QString name, <span class="keywordtype">int</span> attack, <span class="keywordtype">int</span> defense, <span class="keywordtype">int</span> energy, <span class="keywordtype">int</span> range, QString skillName, <span class="keywordtype">int</span> skillValue )</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <a class="code" href="classCard.html#a3623390a0119fb736c664de13ef3a9b5">setId</a>( <span class="keywordtype">id</span> );</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <a class="code" href="classCard.html#a6d83b26e6c52df527a6d5b3281841b09">setName</a>( name );</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <a class="code" href="classCard.html#af6ac15eb343766387771f0c7477f018b">setRange</a>( range );</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <a class="code" href="classCard.html#a30378b1d864e4b62046be5e37a660bbe">setEnergyCost</a>( energy );</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordflow">if</span> ( skillName==<span class="stringliteral">&quot;lifedrain&quot;</span> )</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="classCard.html#ab31e3e8ec0ef88d04043fb9d6e492f69">skill</a> = <span class="keyword">new</span> <a class="code" href="classCardSkillLifeDrain.html">CardSkillLifeDrain</a>( attack, defense, skillValue, skillName );</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( skillName==<span class="stringliteral">&quot;stun&quot;</span> )</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="classCard.html#ab31e3e8ec0ef88d04043fb9d6e492f69">skill</a> = <span class="keyword">new</span> <a class="code" href="classCardSkillStun.html">CardSkillStun</a>( attack, defense, skillValue, skillName );</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( skillName==<span class="stringliteral">&quot;weaken&quot;</span> )</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="classCard.html#ab31e3e8ec0ef88d04043fb9d6e492f69">skill</a> = <span class="keyword">new</span> <a class="code" href="classCardSkillWeaken.html">CardSkillWeaken</a>( attack, defense, skillValue, skillName );</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keywordflow">else</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="classCard.html#ab31e3e8ec0ef88d04043fb9d6e492f69">skill</a> = <span class="keyword">new</span> <a class="code" href="classCardSkill.html">CardSkill</a>( attack, defense, skillValue, <span class="stringliteral">&quot;normal&quot;</span> );</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="ttc" id="classCardSkillLifeDrain_html"><div class="ttname"><a href="classCardSkillLifeDrain.html">CardSkillLifeDrain</a></div><div class="ttdef"><b>Definition:</b> <a href="skillbehaviour_8h_source.html#l00055">skillbehaviour.h:55</a></div></div>
+<div class="ttc" id="classCard_html_a30378b1d864e4b62046be5e37a660bbe"><div class="ttname"><a href="classCard.html#a30378b1d864e4b62046be5e37a660bbe">Card::setEnergyCost</a></div><div class="ttdeci">void setEnergyCost(int value)</div><div class="ttdef"><b>Definition:</b> <a href="card_8h_source.html#l00028">card.h:28</a></div></div>
+<div class="ttc" id="classCard_html_af6ac15eb343766387771f0c7477f018b"><div class="ttname"><a href="classCard.html#af6ac15eb343766387771f0c7477f018b">Card::setRange</a></div><div class="ttdeci">void setRange(int value)</div><div class="ttdef"><b>Definition:</b> <a href="card_8h_source.html#l00030">card.h:30</a></div></div>
+<div class="ttc" id="classCardSkillWeaken_html"><div class="ttname"><a href="classCardSkillWeaken.html">CardSkillWeaken</a></div><div class="ttdef"><b>Definition:</b> <a href="skillbehaviour_8h_source.html#l00079">skillbehaviour.h:79</a></div></div>
+<div class="ttc" id="card_8h_html"><div class="ttname"><a href="card_8h.html">card.h</a></div></div>
+<div class="ttc" id="classCard_html_ab31e3e8ec0ef88d04043fb9d6e492f69"><div class="ttname"><a href="classCard.html#ab31e3e8ec0ef88d04043fb9d6e492f69">Card::skill</a></div><div class="ttdeci">CardSkill * skill</div><div class="ttdoc">Reichweite der Karte. </div><div class="ttdef"><b>Definition:</b> <a href="card_8h_source.html#l00019">card.h:19</a></div></div>
+<div class="ttc" id="classCard_html_a6d83b26e6c52df527a6d5b3281841b09"><div class="ttname"><a href="classCard.html#a6d83b26e6c52df527a6d5b3281841b09">Card::setName</a></div><div class="ttdeci">void setName(const QString &amp;value)</div><div class="ttdef"><b>Definition:</b> <a href="card_8h_source.html#l00026">card.h:26</a></div></div>
+<div class="ttc" id="classCard_html_aef78e4edf2cf95c8cc3c7d19d3a35f54"><div class="ttname"><a href="classCard.html#aef78e4edf2cf95c8cc3c7d19d3a35f54">Card::Card</a></div><div class="ttdeci">Card(int id, QString name, int attack, int defense, int energy, int range, QString skillName, int skillValue)</div><div class="ttdoc">Skill. </div><div class="ttdef"><b>Definition:</b> <a href="card_8cpp_source.html#l00033">card.cpp:33</a></div></div>
+<div class="ttc" id="classCardSkillStun_html"><div class="ttname"><a href="classCardSkillStun.html">CardSkillStun</a></div><div class="ttdef"><b>Definition:</b> <a href="skillbehaviour_8h_source.html#l00067">skillbehaviour.h:67</a></div></div>
+<div class="ttc" id="classCard_html_a3623390a0119fb736c664de13ef3a9b5"><div class="ttname"><a href="classCard.html#a3623390a0119fb736c664de13ef3a9b5">Card::setId</a></div><div class="ttdeci">void setId(int value)</div><div class="ttdef"><b>Definition:</b> <a href="card_8h_source.html#l00024">card.h:24</a></div></div>
+<div class="ttc" id="classCardSkill_html"><div class="ttname"><a href="classCardSkill.html">CardSkill</a></div><div class="ttdef"><b>Definition:</b> <a href="skillbehaviour_8h_source.html#l00033">skillbehaviour.h:33</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_a7745faf803f97de09374fa5f1981e49.html">schueler</a></li><li class="navelem"><a class="el" href="dir_0d553343584f0b8ed0440c9d3d3ae308.html">danielg</a></li><li class="navelem"><a class="el" href="dir_6fcba3a93aa4a677929911bdef80643a.html">PRG</a></li><li class="navelem"><a class="el" href="dir_ece1cbd198fe9f155a2e58a6e7e6d270.html">007-fantasyArenaV0.8</a></li><li class="navelem"><a class="el" href="card_8cpp.html">card.cpp</a></li>
+    <li class="footer">Erzeugt am Don Mär 12 2020 09:07:39 für FantasyArena von
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

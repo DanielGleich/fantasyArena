@@ -1,0 +1,7 @@
+<map id="Arena::tryToClose" name="Arena::tryToClose">
+<area shape="rect" id="node1" title=" " alt="" coords="449,31,576,56"/>
+<area shape="rect" id="node2" href="$classArena.html#aa11d45f5f9014ea2c25fc2f06f9454f1" title="Dieses Ereignis wird ausgelöst, wenn das Fenster geschlossen werden soll." alt="" coords="264,5,394,31"/>
+<area shape="rect" id="node3" href="$classController.html#af888a35f7a377692726d81332edf08ab" title=" " alt="" coords="257,55,401,80"/>
+<area shape="rect" id="node4" href="$classController.html#a87d4691f2730fd6263d16622e14780c9" title=" " alt="" coords="104,55,209,80"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,55,56,80"/>
+</map>

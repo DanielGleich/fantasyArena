@@ -1,0 +1,7 @@
+<map id="Someone::beAttacked" name="Someone::beAttacked">
+<area shape="rect" id="node2" href="$config_8h.html#a88c8a153e36970f7d089c1be5fdc7a40" title="lpLoss" alt="" coords="269,5,329,32"/>
+<area shape="rect" id="node3" href="$classSomeone.html#a21b0a8b2acfa13e77d221d45e540ca44" title="Someone::reduceDefenseBy" alt="" coords="204,56,393,83"/>
+<area shape="rect" id="node5" href="$classSomeone.html#a4f9ac808034183753e44bf84ab7c2a28" title="Someone::reduceLpBy" alt="" coords="221,107,376,133"/>
+<area shape="rect" id="node4" href="$classSomeone.html#aed547554e728a73931cba3f22bac0f98" title="Someone::setDefense" alt="" coords="441,56,593,83"/>
+<area shape="rect" id="node6" href="$classSomeone.html#a2ed5a9f06446c09553c9677f05f1dd94" title="Someone::setLp" alt="" coords="459,107,576,133"/>
+</map>

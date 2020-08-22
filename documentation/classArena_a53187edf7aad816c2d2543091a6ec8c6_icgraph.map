@@ -1,0 +1,4 @@
+<map id="Arena::paintMonster" name="Arena::paintMonster">
+<area shape="rect" id="node1" title=" " alt="" coords="181,5,322,31"/>
+<area shape="rect" id="node2" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="5,5,133,31"/>
+</map>

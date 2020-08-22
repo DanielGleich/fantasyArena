@@ -1,0 +1,9 @@
+<map id="Skill" name="Skill">
+<area shape="rect" id="node2" href="$classCardSkill.html" title="{CardSkill\n|# attackValue\l# defenseValue\l|+ CardSkill()\l+ ~CardSkill()\l+ getAttackValue()\l+ setAttackValue()\l+ getDefenseValue()\l+ setDefenseValue()\l+ playAgainst()\l# normalBehaviour()\l}" alt="" coords="245,204,387,399"/>
+<area shape="rect" id="node6" href="$classMonsterSkill.html" title="{MonsterSkill\n|# chance\l|+ MonsterSkill()\l+ ~MonsterSkill()\l+ activateSkill()\l+ getChance()\l+ setChance()\l}" alt="" coords="505,233,628,369"/>
+<area shape="rect" id="node3" href="$classCardSkillLifeDrain.html" title="{CardSkillLifeDrain\n||+ CardSkillLifeDrain()\l+ playAgainst()\l}" alt="" coords="5,447,152,539"/>
+<area shape="rect" id="node4" href="$classCardSkillStun.html" title="{CardSkillStun\n||+ CardSkillStun()\l+ playAgainst()\l}" alt="" coords="176,447,299,539"/>
+<area shape="rect" id="node5" href="$classCardSkillWeaken.html" title="{CardSkillWeaken\n||+ CardSkillWeaken()\l+ playAgainst()\l}" alt="" coords="323,447,466,539"/>
+<area shape="rect" id="node7" href="$classMonsterSkillAttack.html" title="{MonsterSkillAttack\n||+ MonsterSkillAttack()\l+ activateSkill()\l}" alt="" coords="491,447,643,539"/>
+<area shape="rect" id="node8" href="$classMonsterSkillDefend.html" title="{MonsterSkillDefend\n||+ MonsterSkillDefend()\l+ activateSkill()\l}" alt="" coords="667,447,823,539"/>
+</map>

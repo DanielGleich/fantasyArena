@@ -1,0 +1,4 @@
+<map id="CardSkillWeaken" name="CardSkillWeaken">
+<area shape="rect" id="node2" href="$classCardSkill.html" title="{CardSkill\n|# attackValue\l# defenseValue\l|+ CardSkill()\l+ ~CardSkill()\l+ getAttackValue()\l+ setAttackValue()\l+ getDefenseValue()\l+ setDefenseValue()\l+ playAgainst()\l# normalBehaviour()\l}" alt="" coords="5,204,148,399"/>
+<area shape="rect" id="node3" href="$classSkill.html" title="{Skill\n|# skill\l# name\l|+ Skill()\l+ getSkillValue()\l+ setSkillValue()\l+ getSkillName()\l+ setSkillName()\l}" alt="" coords="17,5,137,156"/>
+</map>

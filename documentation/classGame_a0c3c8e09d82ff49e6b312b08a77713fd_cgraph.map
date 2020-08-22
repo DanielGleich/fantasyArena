@@ -1,0 +1,4 @@
+<map id="Game::initMonsterSkillAttack" name="Game::initMonsterSkillAttack">
+<area shape="rect" id="node2" href="$classDatabase.html#ab25c5b2bc1946ac964a716026c6b929b" title="Database::getAttackChance\lOfMonster" alt="" coords="253,5,440,47"/>
+<area shape="rect" id="node3" href="$classDatabase.html#a6f60ba569b9cf33a4cc701df8018edec" title="Database::getAttackOfMonster" alt="" coords="245,71,448,98"/>
+</map>

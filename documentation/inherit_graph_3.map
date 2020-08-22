@@ -1,0 +1,6 @@
+<map id="Grafische Darstellung der Klassenhierarchie" name="Grafische Darstellung der Klassenhierarchie">
+<area shape="rect" id="node1" title=" " alt="" coords="5,55,76,80"/>
+<area shape="rect" id="node2" href="$classController.html" title=" " alt="" coords="124,5,203,31"/>
+<area shape="rect" id="node3" href="$classDatabase.html" title=" " alt="" coords="124,55,202,80"/>
+<area shape="rect" id="node4" href="$classGame.html" title="Steuerung der kompletten Spiellogik und Verwaltung aller notwendigen Daten." alt="" coords="134,104,192,129"/>
+</map>

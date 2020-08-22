@@ -1,0 +1,8 @@
+<map id="MonsterPosition::isSelected" name="MonsterPosition::isSelected">
+<area shape="rect" id="node1" title=" " alt="" coords="642,44,828,69"/>
+<area shape="rect" id="node2" href="$classMonsterPosition.html#a5cec654a0083afe5b84ce80a41fcf127" title=" " alt="" coords="400,5,594,44"/>
+<area shape="rect" id="node4" href="$classArena.html#a67bdc610fc190ac2a0e11f0b349ca2d7" title=" " alt="" coords="405,68,590,107"/>
+<area shape="rect" id="node3" href="$classArena.html#ae12f8aaca278df938a3babb668aefc07" title="Wird durch Bewegung der Maus ausgelöst." alt="" coords="181,12,352,37"/>
+<area shape="rect" id="node5" href="$classArena.html#a53187edf7aad816c2d2543091a6ec8c6" title=" " alt="" coords="195,75,337,100"/>
+<area shape="rect" id="node6" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="5,75,133,100"/>
+</map>

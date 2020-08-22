@@ -1,0 +1,4 @@
+<map id="Game::playCardAgainstMonster" name="Game::playCardAgainstMonster">
+<area shape="rect" id="node1" title="Eine Handkarte wird gegen ein Monster ausgespielt." alt="" coords="241,5,452,31"/>
+<area shape="rect" id="node2" href="$classArena.html#a5e31f7b3d9d619103f954e646ecbcf96" title="Ereignis, welches durch das Loslassen einer Maustaste ausgelöst wird." alt="" coords="5,5,193,31"/>
+</map>

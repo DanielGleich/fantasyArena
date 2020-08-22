@@ -1,0 +1,7 @@
+<map id="Card::getName" name="Card::getName">
+<area shape="rect" id="node1" title=" " alt="" coords="843,5,955,31"/>
+<area shape="rect" id="node2" href="$classArena.html#aeb117d43620d31d20580fd09f601e4de" title=" " alt="" coords="591,5,795,31"/>
+<area shape="rect" id="node3" href="$classArena.html#a26fe4f31361aeec54d6a0de8f2db006c" title=" " alt="" coords="389,5,543,31"/>
+<area shape="rect" id="node4" href="$classArena.html#a810e551c6bbd182f6a68a4f6caf303ab" title=" " alt="" coords="181,5,341,31"/>
+<area shape="rect" id="node5" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="5,5,133,31"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Card::isRange" name="Card::isRange">
+<area shape="rect" id="node1" title=" " alt="" coords="833,12,939,37"/>
+<area shape="rect" id="node2" href="$classArena.html#adf3ddc7b02ab7dac33d625437539324f" title=" " alt="" coords="591,5,785,44"/>
+<area shape="rect" id="node3" href="$classArena.html#a26fe4f31361aeec54d6a0de8f2db006c" title=" " alt="" coords="389,12,543,37"/>
+<area shape="rect" id="node4" href="$classArena.html#a810e551c6bbd182f6a68a4f6caf303ab" title=" " alt="" coords="181,12,341,37"/>
+<area shape="rect" id="node5" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="5,12,133,37"/>
+</map>

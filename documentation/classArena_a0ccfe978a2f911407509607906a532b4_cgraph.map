@@ -1,0 +1,15 @@
+<map id="Arena::drawPlayerhandCards" name="Arena::drawPlayerhandCards">
+<area shape="rect" id="node1" title="Die Handkarten des Spielers werden gezeichnet." alt="" coords="5,143,202,168"/>
+<area shape="rect" id="node2" href="$classArena.html#a4286cab3b239db5f11282f9d35113a28" title="Der Name der übergebenen Handkarte wird geschrieben." alt="" coords="250,5,453,31"/>
+<area shape="rect" id="node4" href="$classArena.html#acc454f6933e65b502d83f31018af1ec6" title="Das Symbol für die Reichweite der übergebenen Karte wird gezeichnet." alt="" coords="256,55,447,93"/>
+<area shape="rect" id="node6" href="$classArena.html#a10ac37655c4e9fbad357c6f521d90bf4" title="Der Skillname der übergebenen Handkarte wird geschrieben." alt="" coords="255,117,448,143"/>
+<area shape="rect" id="node8" href="$classGame.html#a61506c03b35e21f5078997b7d5f80ea2" title=" " alt="" coords="310,167,393,192"/>
+<area shape="rect" id="node12" href="$classPlayer.html#a92e0ee3d26142d14376951c4ed41bea3" title=" " alt="" coords="275,216,428,241"/>
+<area shape="rect" id="node13" href="$classGame.html#a78627f02c887cca69c96d145701387f7" title=" " alt="" coords="291,265,412,291"/>
+<area shape="rect" id="node3" href="$classCard.html#a8ddd3cf374b1ad37407c1a44518a6a10" title=" " alt="" coords="503,5,615,31"/>
+<area shape="rect" id="node5" href="$classCard.html#a1d76575aaa51a551347dc5b8fd278a5f" title=" " alt="" coords="501,61,617,87"/>
+<area shape="rect" id="node7" href="$classCard.html#a89994f394419ac0a2209cd19ce03abe8" title=" " alt="" coords="509,117,609,143"/>
+<area shape="rect" id="node9" href="$classGame.html#a3b4c8aab575024b6f3e2d648c6e17418" title=" " alt="" coords="508,167,610,192"/>
+<area shape="rect" id="node10" href="$classDatabase.html#a3f608f3a6735ed24e9a3fe39652d5e0c" title=" " alt="" coords="665,167,769,192"/>
+<area shape="rect" id="node11" href="$classDatabase.html#a25acd0ba8ce00ebc6b331568d81e4230" title=" " alt="" coords="817,167,960,192"/>
+</map>

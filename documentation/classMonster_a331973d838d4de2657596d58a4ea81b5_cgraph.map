@@ -1,0 +1,6 @@
+<map id="Monster::chooseSkill" name="Monster::chooseSkill">
+<area shape="rect" id="node2" href="$config_8h.html#ad5755de87d8b9181d2d4f9915dd918b4" title="random" alt="" coords="197,31,263,57"/>
+<area shape="rect" id="node3" href="$config_8h.html#abd7020d7eb76e950ec9444ce149b0a0f" title="sort" alt="" coords="311,31,355,57"/>
+<area shape="rect" id="node4" href="$config_8h.html#af082905f7eac6d03e92015146bbc1925" title="max" alt="" coords="403,5,449,32"/>
+<area shape="rect" id="node5" href="$config_8h.html#abd8bbcfabb3ddef2ccaafb9928a37b95" title="min" alt="" coords="405,56,447,83"/>
+</map>

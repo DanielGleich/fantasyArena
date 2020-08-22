@@ -1,0 +1,9 @@
+<map id="Controller" name="Controller">
+<area shape="rect" id="node1" title=" " alt="" coords="379,1077,552,1244"/>
+<area shape="rect" id="node2" href="$classGame.html" title="Steuerung der kompletten Spiellogik und Verwaltung aller notwendigen Daten." alt="" coords="136,676,323,1003"/>
+<area shape="rect" id="node3" href="$classDatabase.html" title=" " alt="" coords="5,348,182,581"/>
+<area shape="rect" id="node4" href="$classPlayer.html" title=" " alt="" coords="292,328,439,601"/>
+<area shape="rect" id="node5" href="$classSomeone.html" title=" " alt="" coords="309,5,422,279"/>
+<area shape="rect" id="node6" href="$classWidget.html" title=" " alt="" coords="412,776,519,903"/>
+<area shape="rect" id="node7" href="$classArena.html" title="Singleton&#45;Klasse: Anzeige des Spielfeldes, in welchem die Kämpfe stattfinden." alt="" coords="614,663,824,1016"/>
+</map>

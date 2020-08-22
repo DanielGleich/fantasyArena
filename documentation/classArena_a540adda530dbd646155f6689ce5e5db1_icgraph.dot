@@ -1,0 +1,14 @@
+digraph "Arena::setBrushForMonsterBorder"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node745 [label="Arena::setBrushForMonster\lBorder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node745 -> Node746 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node746 [label="Arena::paintLpBeamOnMonster",height=0.2,width=0.4,color="black",URL="$classArena.html#a019536729d71593696d231d34cf7076c"];
+  Node746 -> Node747 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node747 [label="Arena::paintMonster",height=0.2,width=0.4,color="black",URL="$classArena.html#a53187edf7aad816c2d2543091a6ec8c6"];
+  Node747 -> Node748 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node748 [label="Arena::paintEvent",height=0.2,width=0.4,color="black",URL="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95",tooltip="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet. ..."];
+}

@@ -1,0 +1,9 @@
+<map id="Card::getSkill" name="Card::getSkill">
+<area shape="rect" id="node1" title=" " alt="" coords="884,31,984,56"/>
+<area shape="rect" id="node2" href="$classArena.html#a9c560099f1041711a76ffad94737964b" title=" " alt="" coords="634,5,826,31"/>
+<area shape="rect" id="node6" href="$classGame.html#ab476ca0f877e386d2ac15ce191afe1b6" title="Eine Handkarte wird gegen ein Monster ausgespielt." alt="" coords="625,55,836,80"/>
+<area shape="rect" id="node3" href="$classArena.html#a26fe4f31361aeec54d6a0de8f2db006c" title=" " alt="" coords="406,5,560,31"/>
+<area shape="rect" id="node4" href="$classArena.html#a810e551c6bbd182f6a68a4f6caf303ab" title=" " alt="" coords="181,5,341,31"/>
+<area shape="rect" id="node5" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="5,5,133,31"/>
+<area shape="rect" id="node7" href="$classArena.html#a5e31f7b3d9d619103f954e646ecbcf96" title="Ereignis, welches durch das Loslassen einer Maustaste ausgelöst wird." alt="" coords="389,55,577,80"/>
+</map>

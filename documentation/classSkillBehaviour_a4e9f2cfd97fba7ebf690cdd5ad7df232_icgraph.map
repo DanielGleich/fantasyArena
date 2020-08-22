@@ -1,0 +1,8 @@
+<map id="SkillBehaviour::getSkillName" name="SkillBehaviour::getSkillName">
+<area shape="rect" id="node1" title=" " alt="" coords="832,31,1024,56"/>
+<area shape="rect" id="node2" href="$classCard.html#a83b782777f43d4841158f4ab27e08cbb" title=" " alt="" coords="640,5,735,31"/>
+<area shape="rect" id="node3" href="$classArena.html#a9c560099f1041711a76ffad94737964b" title=" " alt="" coords="591,55,784,80"/>
+<area shape="rect" id="node4" href="$classArena.html#a26fe4f31361aeec54d6a0de8f2db006c" title=" " alt="" coords="389,55,543,80"/>
+<area shape="rect" id="node5" href="$classArena.html#a810e551c6bbd182f6a68a4f6caf303ab" title=" " alt="" coords="181,55,341,80"/>
+<area shape="rect" id="node6" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Hauptzeichenevent, welche das gesamte Spielfeld inklusive aller Objekte zeichnet." alt="" coords="5,55,133,80"/>
+</map>

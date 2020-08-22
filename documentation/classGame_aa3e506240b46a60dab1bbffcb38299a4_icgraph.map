@@ -1,0 +1,7 @@
+<map id="Game::getActiveMonster" name="Game::getActiveMonster">
+<area shape="rect" id="node2" href="$classArena.html#ab3a72248022d1e42cb6fd0592c8542e1" title="Arena::paintMonsterCards" alt="" coords="443,5,617,32"/>
+<area shape="rect" id="node4" href="$classArena.html#a09a32119b3d8eb7e392328d56f358ae3" title="Arena::syncMonsterRects" alt="" coords="220,56,395,83"/>
+<area shape="rect" id="node3" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Arena::paintEvent" alt="" coords="669,5,795,32"/>
+<area shape="rect" id="node5" href="$classArena.html#aa783b59b069cba4d380e1f371904b4c6" title="Arena::refresh" alt="" coords="478,56,582,83"/>
+<area shape="rect" id="node6" href="$classController.html#aec579b9ab43df3486be7e655aa7e92ff" title="Controller::endTurn" alt="" coords="665,56,799,83"/>
+</map>

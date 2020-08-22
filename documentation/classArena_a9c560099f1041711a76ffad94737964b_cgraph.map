@@ -1,0 +1,5 @@
+<map id="Arena::paintSkillOfHandCard" name="Arena::paintSkillOfHandCard">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,198,56"/>
+<area shape="rect" id="node2" href="$classCard.html#ac0738447f9a94401be194f038379835f" title=" " alt="" coords="291,5,392,31"/>
+<area shape="rect" id="node3" href="$classSkillBehaviour.html#a4e9f2cfd97fba7ebf690cdd5ad7df232" title=" " alt="" coords="246,55,438,80"/>
+</map>

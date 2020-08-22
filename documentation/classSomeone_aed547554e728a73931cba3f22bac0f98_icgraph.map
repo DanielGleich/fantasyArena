@@ -1,0 +1,13 @@
+<map id="Someone::setDefense" name="Someone::setDefense">
+<area shape="rect" id="node1" title=" " alt="" coords="471,179,624,204"/>
+<area shape="rect" id="node2" href="$classSkillBehaviour.html#ade91b0e8a4af4c588e62a773545a9499" title=" " alt="" coords="230,97,413,136"/>
+<area shape="rect" id="node7" href="$classSkillBehaviour.html#a313eeae3e4e6134f3b39c0b178cdcfdb" title=" " alt="" coords="221,245,423,284"/>
+<area shape="rect" id="node3" href="$classNormal.html#a73efe550c28c446c190e6230a23a96ba" title=" " alt="" coords="22,5,156,31"/>
+<area shape="rect" id="node4" href="$classLifeDrain.html#a854014273c3e5757ca631a8d5b013e4e" title=" " alt="" coords="16,55,162,80"/>
+<area shape="rect" id="node5" href="$classStun.html#a3b841f7a1f09ced15dc3c429806bbd89" title=" " alt="" coords="29,104,149,129"/>
+<area shape="rect" id="node6" href="$classWeaken.html#a5cbfc9c4112c234425cdd4ae9af06fd5" title=" " alt="" coords="19,153,159,179"/>
+<area shape="rect" id="node8" href="$classNormal.html#a4c5be9314ad7a9db3ca96b956ada97e4" title=" " alt="" coords="11,203,167,228"/>
+<area shape="rect" id="node9" href="$classLifeDrain.html#ae2a9917306afa08f2ebbdaff8750a710" title=" " alt="" coords="5,252,173,277"/>
+<area shape="rect" id="node10" href="$classStun.html#af4dab4c9a0d7379dd4e0493bb6713384" title=" " alt="" coords="18,301,160,327"/>
+<area shape="rect" id="node11" href="$classWeaken.html#ac5fd5596ac9480cd1e3ec3277f71eb9d" title=" " alt="" coords="8,351,170,376"/>
+</map>

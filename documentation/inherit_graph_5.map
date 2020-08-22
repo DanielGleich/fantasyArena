@@ -1,0 +1,7 @@
+<map id="Grafische Darstellung der Klassenhierarchie" name="Grafische Darstellung der Klassenhierarchie">
+<area shape="rect" id="node1" href="$classSkillBehaviour.html" title=" " alt="" coords="5,80,111,105"/>
+<area shape="rect" id="node2" href="$classLifeDrain.html" title=" " alt="" coords="159,5,234,31"/>
+<area shape="rect" id="node3" href="$classNormal.html" title=" " alt="" coords="164,55,229,80"/>
+<area shape="rect" id="node4" href="$classStun.html" title=" " alt="" coords="172,104,221,129"/>
+<area shape="rect" id="node5" href="$classWeaken.html" title=" " alt="" coords="161,153,232,179"/>
+</map>

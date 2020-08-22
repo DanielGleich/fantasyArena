@@ -1,0 +1,13 @@
+<map id="Arena::paintHandCardFightStats" name="Arena::paintHandCardFightStats">
+<area shape="rect" id="node1" title=" " alt="" coords="5,68,189,107"/>
+<area shape="rect" id="node2" href="$classArena.html#a730832b4ba057726228c1b88981e3fb1" title=" " alt="" coords="243,5,434,44"/>
+<area shape="rect" id="node5" href="$classArena.html#a47fd76fa37e7e4839c0fba46930ac73a" title=" " alt="" coords="237,68,441,107"/>
+<area shape="rect" id="node8" href="$classArena.html#a722b9f104b5a440b72f17fd2a9cc7010" title=" " alt="" coords="241,131,437,169"/>
+<area shape="rect" id="node3" href="$classCard.html#aa6270bd1b3ddd53939d0ed5ceb3c3c65" title=" " alt="" coords="495,12,641,37"/>
+<area shape="rect" id="node4" href="$classSkillBehaviour.html#a59297926d6568415587f8bb220534473" title=" " alt="" coords="712,5,881,44"/>
+<area shape="rect" id="node6" href="$classCard.html#ade635a8cc02094f74bad04bdb3b75c70" title=" " alt="" coords="489,75,648,100"/>
+<area shape="rect" id="node7" href="$classSkillBehaviour.html#acb821e34ee2c0d8b725e7504d792b3c8" title=" " alt="" coords="706,68,887,107"/>
+<area shape="rect" id="node9" href="$config_8h.html#a1d8b7d51f660fa0212db63a9d7a17987" title=" " alt="" coords="507,131,630,156"/>
+<area shape="rect" id="node10" href="$classCard.html#aee18dfccac738f4327b42041fc691170" title=" " alt="" coords="495,180,641,205"/>
+<area shape="rect" id="node11" href="$classSkillBehaviour.html#ab3a7f29f9218d737b0e8377e721a34af" title=" " alt="" coords="696,180,897,205"/>
+</map>
