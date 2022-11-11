@@ -1,7 +1,0 @@
-<map id="Game::setPlayerCards" name="Game::setPlayerCards">
-<area shape="rect" id="node1" title=" " alt="" coords="5,55,162,80"/>
-<area shape="rect" id="node2" href="$classPlayer.html#a2d673028bff02a10a6f15c7903a63b97" title=" " alt="" coords="252,5,370,31"/>
-<area shape="rect" id="node3" href="$classGame.html#ac6d07e573b743282b9af256c3f8b83a6" title=" " alt="" coords="255,55,367,80"/>
-<area shape="rect" id="node5" href="$classDatabase.html#a757e9291cfbe25226251bf3cc7b7ba36" title=" " alt="" coords="210,104,412,129"/>
-<area shape="rect" id="node4" href="$classCard.html#a1375a06b6b8b1502becfdfe43c0b96e6" title=" " alt="" coords="460,55,548,80"/>
-</map>

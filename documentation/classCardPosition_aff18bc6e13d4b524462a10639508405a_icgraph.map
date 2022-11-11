@@ -1,6 +1,0 @@
-<map id="CardPosition::getSelectedCard" name="CardPosition::getSelectedCard">
-<area shape="rect" id="node2" href="$classArena.html#ae12f8aaca278df938a3babb668aefc07" title="Arena::mouseMoveEvent" alt="" coords="264,5,433,32"/>
-<area shape="rect" id="node3" href="$classArena.html#a5e31f7b3d9d619103f954e646ecbcf96" title="Arena::mouseReleaseEvent" alt="" coords="256,56,441,83"/>
-<area shape="rect" id="node4" href="$classArena.html#afff24164ffd7ad9724dc54439422f945" title="Arena::paintHandCards" alt="" coords="269,107,428,133"/>
-<area shape="rect" id="node5" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Arena::paintEvent" alt="" coords="489,107,616,133"/>
-</map>

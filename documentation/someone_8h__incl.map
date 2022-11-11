@@ -1,9 +1,0 @@
-<map id="someone.h" name="someone.h">
-<area shape="rect" id="node1" title=" " alt="" coords="51,5,139,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,225,76,251"/>
-<area shape="rect" id="node3" href="$card_8h.html" title=" " alt="" coords="66,79,124,104"/>
-<area shape="rect" id="node5" href="$config_8h.html" title=" " alt="" coords="146,225,214,251"/>
-<area shape="rect" id="node4" href="$skillbehaviour_8h.html" title=" " alt="" coords="78,152,190,177"/>
-<area shape="rect" id="node6" title=" " alt="" coords="105,299,168,324"/>
-<area shape="rect" id="node7" title=" " alt="" coords="192,299,257,324"/>
-</map>

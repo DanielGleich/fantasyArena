@@ -1,5 +1,0 @@
-<map id="Grafische Darstellung der Klassenhierarchie" name="Grafische Darstellung der Klassenhierarchie">
-<area shape="rect" id="node1" href="$classSomeone.html" title="Someone" alt="" coords="5,31,83,57"/>
-<area shape="rect" id="node2" href="$classMonster.html" title="Klasse einer einzelnen Monsterverwaltung Diese Klasse ist ein gegnerisches Monster. " alt="" coords="131,5,200,32"/>
-<area shape="rect" id="node3" href="$classPlayer.html" title="Player" alt="" coords="136,56,195,83"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Arena::paintLpBeamOnMonster" name="Arena::paintLpBeamOnMonster">
-<area shape="rect" id="node1" title=" " alt="" coords="5,83,214,108"/>
-<area shape="rect" id="node2" href="$classSomeone.html#adb54ff063f5a5b38989d651efe9cd13f" title=" " alt="" coords="295,5,414,31"/>
-<area shape="rect" id="node3" href="$classSomeone.html#abefeb0340304f868f6d8f13b2e95518c" title=" " alt="" coords="283,55,427,80"/>
-<area shape="rect" id="node4" href="$classArena.html#a540adda530dbd646155f6689ce5e5db1" title=" " alt="" coords="262,104,447,143"/>
-<area shape="rect" id="node5" href="$classArena.html#a6342848278aa0d7595c3d7eee33eab22" title=" " alt="" coords="262,167,447,205"/>
-</map>

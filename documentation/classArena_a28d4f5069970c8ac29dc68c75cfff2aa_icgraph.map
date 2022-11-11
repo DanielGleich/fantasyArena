@@ -1,8 +1,0 @@
-<map id="Arena::initActiveMonsterRects" name="Arena::initActiveMonsterRects">
-<area shape="rect" id="node1" title=" " alt="" coords="728,5,894,44"/>
-<area shape="rect" id="node2" href="$classArena.html#ac231225d501b4eb32e92b6d5bad0da36" title=" " alt="" coords="580,12,680,37"/>
-<area shape="rect" id="node3" href="$classArena.html#a249287d698837506f2b7579d49ada1c0" title="Gibt die Instanz des Singletons zurück." alt="" coords="449,12,532,37"/>
-<area shape="rect" id="node4" href="$classController.html#af888a35f7a377692726d81332edf08ab" title=" " alt="" coords="257,12,401,37"/>
-<area shape="rect" id="node5" href="$classController.html#a87d4691f2730fd6263d16622e14780c9" title=" " alt="" coords="104,12,209,37"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,12,56,37"/>
-</map>

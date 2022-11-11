@@ -1,6 +1,0 @@
-<map id="CardSkill" name="CardSkill">
-<area shape="rect" id="node3" href="$classCardSkillLifeDrain.html" title="{CardSkillLifeDrain\n||+ CardSkillLifeDrain()\l+ playAgainst()\l}" alt="" coords="5,447,152,539"/>
-<area shape="rect" id="node4" href="$classCardSkillStun.html" title="{CardSkillStun\n||+ CardSkillStun()\l+ playAgainst()\l}" alt="" coords="176,447,299,539"/>
-<area shape="rect" id="node5" href="$classCardSkillWeaken.html" title="{CardSkillWeaken\n||+ CardSkillWeaken()\l+ playAgainst()\l}" alt="" coords="323,447,466,539"/>
-<area shape="rect" id="node2" href="$classSkill.html" title="{Skill\n|# skill\l# name\l|+ Skill()\l+ getSkillValue()\l+ setSkillValue()\l+ getSkillName()\l+ setSkillName()\l}" alt="" coords="177,5,297,156"/>
-</map>

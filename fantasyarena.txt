@@ -1,0 +1,6 @@
+TODO:
+
+- DrawEvents (Gestunnt, Geschwächt)
+- DrawEvents Range anzeigen
+- Zug beenden-Bug beenden
+- "Use Card against"

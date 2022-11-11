@@ -1,5 +1,0 @@
-<map id="Player::reduceEnergyBy" name="Player::reduceEnergyBy">
-<area shape="rect" id="node2" href="$classPlayer.html#a4020fb70788e796db682cac541ad014c" title="Player::playCardAgainst" alt="" coords="216,5,379,32"/>
-<area shape="rect" id="node3" href="$classGame.html#a0c87145476569e57573a39d77d4399a3" title="Game::playCardAgainstSomeone" alt="" coords="427,5,643,32"/>
-<area shape="rect" id="node4" href="$classArena.html#a5e31f7b3d9d619103f954e646ecbcf96" title="Arena::mouseReleaseEvent" alt="" coords="691,5,876,32"/>
-</map>

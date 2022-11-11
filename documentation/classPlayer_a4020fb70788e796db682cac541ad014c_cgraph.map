@@ -1,8 +1,0 @@
-<map id="Player::playCardAgainst" name="Player::playCardAgainst">
-<area shape="rect" id="node2" href="$classPlayer.html#a31662c0a5c96ea07962bdb7a62292a36" title="Player::departHandCard" alt="" coords="216,5,379,32"/>
-<area shape="rect" id="node3" href="$classCard.html#aee18dfccac738f4327b42041fc691170" title="Card::getEnergyCost" alt="" coords="225,56,370,83"/>
-<area shape="rect" id="node4" href="$classCard.html#af204fdf522d106a790a0ccc88b25711a" title="Card::getSkill" alt="" coords="247,107,348,133"/>
-<area shape="rect" id="node5" href="$classCardSkill.html#a93e7e5df405be9bdae9c5d16e54e623e" title="CardSkill::playAgainst" alt="" coords="222,157,373,184"/>
-<area shape="rect" id="node6" href="$classPlayer.html#a5a23dfedf121757c9af50a7db3071475" title="Player::reduceEnergyBy" alt="" coords="216,208,379,235"/>
-<area shape="rect" id="node7" href="$classPlayer.html#a71a561639b742c69d43068f9a167e3f4" title="Player::setEnergy" alt="" coords="427,208,553,235"/>
-</map>

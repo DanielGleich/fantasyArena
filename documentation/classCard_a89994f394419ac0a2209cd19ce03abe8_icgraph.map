@@ -1,6 +1,0 @@
-<map id="Card::getSkill" name="Card::getSkill">
-<area shape="rect" id="node1" title=" " alt="" coords="665,5,766,31"/>
-<area shape="rect" id="node2" href="$classArena.html#a10ac37655c4e9fbad357c6f521d90bf4" title="Der Skillname der übergebenen Handkarte wird geschrieben." alt="" coords="425,5,617,31"/>
-<area shape="rect" id="node3" href="$classArena.html#a0ccfe978a2f911407509607906a532b4" title="Die Handkarten des Spielers werden gezeichnet." alt="" coords="181,5,377,31"/>
-<area shape="rect" id="node4" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title=" " alt="" coords="5,5,133,31"/>
-</map>

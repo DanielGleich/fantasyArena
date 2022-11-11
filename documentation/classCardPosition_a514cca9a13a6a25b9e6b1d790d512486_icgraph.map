@@ -1,7 +1,0 @@
-<map id="CardPosition::resetPosition" name="CardPosition::resetPosition">
-<area shape="rect" id="node2" href="$classCardPosition.html#aff18bc6e13d4b524462a10639508405a" title="CardPosition::getSelectedCard" alt="" coords="235,56,437,83"/>
-<area shape="rect" id="node4" href="$classArena.html#a5e31f7b3d9d619103f954e646ecbcf96" title="Arena::mouseReleaseEvent" alt="" coords="485,107,671,133"/>
-<area shape="rect" id="node3" href="$classArena.html#ae12f8aaca278df938a3babb668aefc07" title="Arena::mouseMoveEvent" alt="" coords="493,5,663,32"/>
-<area shape="rect" id="node5" href="$classArena.html#afff24164ffd7ad9724dc54439422f945" title="Arena::paintHandCards" alt="" coords="499,56,657,83"/>
-<area shape="rect" id="node6" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Arena::paintEvent" alt="" coords="719,56,845,83"/>
-</map>

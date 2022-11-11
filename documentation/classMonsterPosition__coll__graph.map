@@ -1,5 +1,0 @@
-<map id="MonsterPosition" name="MonsterPosition">
-<area shape="rect" id="node1" title=" " alt="" coords="5,676,166,896"/>
-<area shape="rect" id="node2" href="$classMonster.html" title="Für jedes Monster wird eine Instanz dieser Klasse erstellt." alt="" coords="14,328,157,615"/>
-<area shape="rect" id="node3" href="$classSomeone.html" title=" " alt="" coords="29,5,142,279"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Arena::nextTurn" name="Arena::nextTurn">
-<area shape="rect" id="node2" href="$classArena.html#ac231225d501b4eb32e92b6d5bad0da36" title="Arena::Arena" alt="" coords="168,5,267,32"/>
-<area shape="rect" id="node3" href="$classArena.html#aeca43b54f1fee6fce73bcdd727d1917a" title="Arena::get" alt="" coords="315,5,397,32"/>
-<area shape="rect" id="node4" href="$classController.html#af888a35f7a377692726d81332edf08ab" title="zeiger zum Speichern der Fensterposition " alt="" coords="445,5,588,32"/>
-<area shape="rect" id="node5" href="$classController.html#a87d4691f2730fd6263d16622e14780c9" title="Controller::get" alt="" coords="636,5,740,32"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="788,5,839,32"/>
-</map>

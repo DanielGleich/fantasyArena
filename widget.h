@@ -12,22 +12,22 @@
 \*********************************************/
 class Widget : public QWidget
 {
-  Q_OBJECT
+    Q_OBJECT
 private:
-  static Widget *widget;
-  Widget();
-  ~Widget();
+    static Widget *widget;
+    Widget();
+    ~Widget();
 
 protected:
-  void closeEvent( QCloseEvent *event );
+    void closeEvent( QCloseEvent *event );
 
 public:
-  static Widget *get();
+    static Widget *get();
 
 signals:
-  void exitGame();
-  void loadGame();
-  void tryToExit();
+    void exitGame();
+    void loadGame();
+    void tryToExit();
 };
 
 #endif // WIDGET_H

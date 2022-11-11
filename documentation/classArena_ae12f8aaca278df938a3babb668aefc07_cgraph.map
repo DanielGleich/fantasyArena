@@ -1,8 +1,0 @@
-<map id="Arena::mouseMoveEvent" name="Arena::mouseMoveEvent">
-<area shape="rect" id="node1" title="Wird durch Bewegung der Maus ausgelöst." alt="" coords="5,61,176,87"/>
-<area shape="rect" id="node2" href="$classCardPosition.html#a15a0fa470080f84603c7ea17a661db29" title=" " alt="" coords="224,5,429,31"/>
-<area shape="rect" id="node4" href="$classMonsterPosition.html#a5cec654a0083afe5b84ce80a41fcf127" title=" " alt="" coords="229,55,424,93"/>
-<area shape="rect" id="node6" href="$classMonsterPosition.html#ab84d0ce572f80467d059d1e386d44487" title=" " alt="" coords="240,117,414,156"/>
-<area shape="rect" id="node3" href="$classCardPosition.html#a7e4274b5a185d8ece9e1950320732737" title=" " alt="" coords="486,5,653,31"/>
-<area shape="rect" id="node5" href="$classMonsterPosition.html#acd693a8a3398a31cad42b9a9897ab182" title=" " alt="" coords="477,61,663,87"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="Game::generateNewActiveMonsters" name="Game::generateNewActiveMonsters">
-<area shape="rect" id="node1" title=" " alt="" coords="5,57,241,83"/>
-<area shape="rect" id="node2" href="$classGame.html#a467e33ff03470221dc42d3905c55c96f" title=" " alt="" coords="289,19,518,44"/>
-<area shape="rect" id="node4" href="$config_8h.html#ad5755de87d8b9181d2d4f9915dd918b4" title=" " alt="" coords="370,81,437,107"/>
-<area shape="rect" id="node3" href="$classMonster.html#ac8756c685263e922c9571204ab54eb75" title=" " alt="" coords="566,5,694,31"/>
-<area shape="rect" id="node5" href="$config_8h.html#af082905f7eac6d03e92015146bbc1925" title=" " alt="" coords="742,83,788,108"/>
-<area shape="rect" id="node6" href="$config_8h.html#abd8bbcfabb3ddef2ccaafb9928a37b95" title=" " alt="" coords="744,132,786,157"/>
-<area shape="rect" id="node7" href="$config_8h.html#abd7020d7eb76e950ec9444ce149b0a0f" title=" " alt="" coords="608,107,652,132"/>
-</map>

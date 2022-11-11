@@ -13,30 +13,26 @@
 \*********************************************/
 class Controller : public QObject
 {
-  Q_OBJECT
+    Q_OBJECT
 
 private:
-  static Controller *controller;                                          /// Zeiger auf die Singleton-Instanz dieser Klasse
-  Widget            *widget;                                              /// Zeiger auf das Widget
-  Game              *game;                                                /// Zeiger auf das Game
-  Arena             *arena;                                               /// zeiger auf die Arena
-  QSettings         *settings;                                            /// zeiger zum Speichern der Fensterposition
-  Controller( QObject *parent = nullptr );
-  ~Controller();
-  void saveWindowGeometry();
-  void loadWindowGeometry();
+    static Controller *controller;                                          // Zeiger auf die Singleton-Instanz dieser Klasse
+    Widget            *widget;                                              // Zeiger auf das Widget
+    Game              *game;                                                // Zeiger auf das Game
+    Arena             *arena;                                               // zeiger auf die Arena
+    QSettings         *settings;                                            // zeiger zum Speichern der Fensterposition
+    Controller( QObject *parent = nullptr );
+    ~Controller();
+    void saveWindowGeometry();
+    void loadWindowGeometry();
 
 private slots:
-  void exit();
-  void loadGame();
-  void closeArena();
-  void endTurn();
+    void exit();
+    void loadGame();
+    void closeArena();
 
 public:
-  static Controller *get();
+    static Controller *get();
 };
 
 #endif // CONTROLLER_H
-
-/*! \class Controller
- * \brief Diese Klasse steuert das gesamte Programm als übereordnete Instanz */

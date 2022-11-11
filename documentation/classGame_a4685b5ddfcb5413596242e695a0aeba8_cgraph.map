@@ -1,4 +1,0 @@
-<map id="Game::initMonsterSkillDefend" name="Game::initMonsterSkillDefend">
-<area shape="rect" id="node2" href="$classDatabase.html#a9f6a7a25c611d1d781d72c9844667037" title="Database::getDefenseChance\lOfMonster" alt="" coords="257,5,456,47"/>
-<area shape="rect" id="node3" href="$classDatabase.html#a464f760edd6193f08ab3d450b32130a8" title="Database::getDefenseOfMonster" alt="" coords="249,71,464,98"/>
-</map>

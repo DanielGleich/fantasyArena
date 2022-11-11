@@ -1,5 +1,0 @@
-<map id="MonsterPosition::getSelectedMonster" name="MonsterPosition::getSelectedMonster">
-<area shape="rect" id="node2" href="$classArena.html#a5e31f7b3d9d619103f954e646ecbcf96" title="Arena::mouseReleaseEvent" alt="" coords="247,5,432,32"/>
-<area shape="rect" id="node3" href="$classArena.html#ab3a72248022d1e42cb6fd0592c8542e1" title="Arena::paintMonsterCards" alt="" coords="252,56,427,83"/>
-<area shape="rect" id="node4" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title="Arena::paintEvent" alt="" coords="480,56,607,83"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="MonsterSkill" name="MonsterSkill">
-<area shape="rect" id="node3" href="$classMonsterSkillAttack.html" title="{MonsterSkillAttack\n||+ MonsterSkillAttack()\l+ activateSkill()\l}" alt="" coords="5,388,157,480"/>
-<area shape="rect" id="node4" href="$classMonsterSkillDefend.html" title="{MonsterSkillDefend\n||+ MonsterSkillDefend()\l+ activateSkill()\l}" alt="" coords="182,388,338,480"/>
-<area shape="rect" id="node2" href="$classSkill.html" title="{Skill\n|# skill\l# name\l|+ Skill()\l+ getSkillValue()\l+ setSkillValue()\l+ getSkillName()\l+ setSkillName()\l}" alt="" coords="111,5,231,156"/>
-</map>

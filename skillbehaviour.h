@@ -14,15 +14,17 @@ class Someone;
 class Skill
 {
 protected:
-  int skill;                /// Wert, mit dem der Skill ausgeführt wird
-  QString name     = "noSkill";
+    int attackValue;
+    int defenseValue;
+    int skill;                // Wert, mit dem der Skill ausgeführt wird
+    QString name     = "noSkill";
 
 public:
-  Skill( int skillValue, QString skillName )        { setSkillValue( skillValue ); setSkillName( skillName ); }
-  int          getSkillValue() const                {return skill;}
-  void         setSkillValue( int value )           {this->skill = value;}
-  QString      getSkillName() const                 {return name;}
-  void         setSkillName( const QString& value ) {this->name = value;}
+    Skill( int skillValue, QString skillName )        { setSkillValue( skillValue ); setSkillName( skillName ); }
+    int          getSkillValue() const                {return skill;}
+    void         setSkillValue( int value )           {this->skill = value;}
+    QString      getSkillName() const                 {return name;}
+    void         setSkillName( const QString& value ) {this->name = value;}
 };
 
 /*********************************************\
@@ -32,12 +34,10 @@ public:
 \*********************************************/
 class CardSkill : public Skill
 {
-  protected:
-    int attackValue;
-    int defenseValue;
-    int normalBehaviour( Someone *target );       /// gibt den verursachten Schaden zurück
+protected:
+    int normalBehaviour( Someone *target );       // gibt den verursachten Schaden zurück
 
-  public:
+public:
     CardSkill( int attack, int defense, int skillValue, QString skillName );
     virtual ~CardSkill();
     int           getAttackValue() const            {return attackValue;}
@@ -55,8 +55,8 @@ class CardSkill : public Skill
 class CardSkillLifeDrain : public CardSkill
 {
 public:
-  CardSkillLifeDrain( int attack, int defense, int skillValue, QString skillName );
-  void playAgainst( Someone *target ) override;
+    CardSkillLifeDrain( int attack, int defense, int skillValue, QString skillName );
+    void playAgainst( Someone *target ) override;
 };
 
 /*********************************************\
@@ -67,8 +67,8 @@ public:
 class CardSkillStun : public CardSkill
 {
 public:
-  CardSkillStun( int attack, int defense, int skillValue, QString skillName );
-  void playAgainst(Someone *target ) override;
+    CardSkillStun( int attack, int defense, int skillValue, QString skillName );
+    void playAgainst(Someone *target ) override;
 };
 
 /*********************************************\
@@ -79,8 +79,8 @@ public:
 class CardSkillWeaken : public CardSkill
 {
 public:
-  CardSkillWeaken( int attack, int defense, int skillValue, QString skillName );
-  void playAgainst( Someone *target );
+    CardSkillWeaken( int attack, int defense, int skillValue, QString skillName );
+    void playAgainst( Someone *target );
 };
 
 /*********************************************\
@@ -91,14 +91,14 @@ public:
 class MonsterSkill : public Skill
 {
 protected:
-  int chance;
+    int chance;
 
 public:
-  MonsterSkill( int skillValue, QString skillName, int skillChance );
-  virtual ~MonsterSkill();
-  virtual void activateSkill() = 0;
-  int          getChance() const        {return chance;}
-  void         setChance( int value )   {this->chance = value;}
+    MonsterSkill( int skillValue, QString skillName, int skillChance );
+    virtual ~MonsterSkill();
+    virtual void activateSkill(Someone *target) = 0;
+    int          getChance() const        {return chance;}
+    void         setChance( int value )   {this->chance = value;}
 };
 
 /*********************************************\
@@ -109,8 +109,8 @@ public:
 class MonsterSkillAttack : public MonsterSkill
 {
 public:
-  MonsterSkillAttack( int skillValue, QString skillName, int skillChance );
-  void activateSkill() override;
+    MonsterSkillAttack( int skillValue, QString skillName, int skillChance, int attackValue );
+    void activateSkill(Someone *target) override;
 };
 
 /*********************************************\
@@ -121,8 +121,8 @@ public:
 class MonsterSkillDefend : public MonsterSkill
 {
 public:
-  MonsterSkillDefend( int skillValue, QString skillName, int skillChance );
-  void activateSkill() override;
+    MonsterSkillDefend(int skillValue, QString skillName, int skillChance , int defendValue);
+    void activateSkill(Someone *target) override;
 };
 
 #endif // SKILLBEHAVIOUR_H

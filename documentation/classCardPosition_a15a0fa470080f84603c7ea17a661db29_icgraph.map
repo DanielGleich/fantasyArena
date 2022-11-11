@@ -1,5 +1,0 @@
-<map id="CardPosition::getSelectedCard" name="CardPosition::getSelectedCard">
-<area shape="rect" id="node1" title=" " alt="" coords="241,31,445,56"/>
-<area shape="rect" id="node2" href="$classArena.html#ae12f8aaca278df938a3babb668aefc07" title="Wird durch Bewegung der Maus ausgelöst." alt="" coords="13,5,185,31"/>
-<area shape="rect" id="node3" href="$classArena.html#a5e31f7b3d9d619103f954e646ecbcf96" title="Ereignis, welches durch das Loslassen einer Maustaste ausgelöst wird." alt="" coords="5,55,193,80"/>
-</map>

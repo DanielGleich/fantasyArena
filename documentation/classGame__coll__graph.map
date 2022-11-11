@@ -1,6 +1,0 @@
-<map id="Game" name="Game">
-<area shape="rect" id="node1" title="Steuerung der kompletten Spiellogik und Verwaltung aller notwendigen Daten." alt="" coords="136,663,323,989"/>
-<area shape="rect" id="node2" href="$classDatabase.html" title=" " alt="" coords="5,348,182,581"/>
-<area shape="rect" id="node3" href="$classPlayer.html" title=" " alt="" coords="292,328,439,601"/>
-<area shape="rect" id="node4" href="$classSomeone.html" title=" " alt="" coords="309,5,422,279"/>
-</map>

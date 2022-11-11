@@ -1,8 +1,0 @@
-<RCC>
-    <qresource prefix="/pictogram">
-        <file>melee.png</file>
-        <file>ranged.png</file>
-        <file>star.png</file>
-        <file>arena.jpg</file>
-    </qresource>
-</RCC>

@@ -1,5 +1,0 @@
-<map id="Arena::drawRangeSymbolOfHandCard" name="Arena::drawRangeSymbolOfHandCard">
-<area shape="rect" id="node1" title="Das Symbol für die Reichweite der übergebenen Karte wird gezeichnet." alt="" coords="425,5,616,44"/>
-<area shape="rect" id="node2" href="$classArena.html#a0ccfe978a2f911407509607906a532b4" title="Die Handkarten des Spielers werden gezeichnet." alt="" coords="181,12,377,37"/>
-<area shape="rect" id="node3" href="$classArena.html#a4c569be6d5527861c63e1b2bf0016e95" title=" " alt="" coords="5,12,133,37"/>
-</map>
