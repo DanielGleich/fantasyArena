@@ -60,6 +60,7 @@ public:
     ~Player();
     int             getEnergy( void ) const;
     void            setEnergy( int value );
+    void            addEnergy();
     void            reduceEnergyBy( int value );
     QList< Card * > getDeck( void ) const;
     void            setDeck( const QList< Card * >& value );

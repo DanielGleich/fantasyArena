@@ -20,13 +20,13 @@ const QColor GAME_BACKGROUND_COLOR          = QColor(  57,  41,  53 );
 const int CARD_SPACE                        = 20;
 const int CARD_SIZE_HEIGHT                  = 180;
 const int CARD_SIZE_WIDTH                   = 150;
-const int CARD_POS_Y                        = 300;
-const int CARD_POS_X                        = 80;
+const int CARD_POS_Y                        = 391;
+const int CARD_POS_X                        = 85;
 const QColor CARD_NAME_COLOR                = QColor(  65,  43,  12 );
 const int ICON_SIZE                         = 20;
 
 const int MONSTER_SPACE                     = 14;
-const int MONSTER_HEIGHT                    = 184;
+const int MONSTER_HEIGHT                    = 200;
 const int MONSTER_WIDTH                     = 240;
 const int MONSTER_SIDE_PADDING              = ( ARENA_WIDTH-3*MONSTER_WIDTH-2*MONSTER_SPACE )/2;// 126;
 const int MONSTER_LP_HEIGHT                 = MONSTER_HEIGHT-50;
@@ -51,8 +51,7 @@ const QColor PLAYER_CARD_BACKGROUND_COLOR   = QColor(109,115,176);
 const QColor PLAYER_CARD_BORDER_COLOR       = QColor(117,137,184);
 const QColor PLAYER_CARD_FONT_COLOR         = QColor(169,198,236);
 const QColor PLAYER_INFO_SELECTED_COLOR     = QColor(113,66,76);
-const QRect  PLAYER_INFO_POSITION           = QRect(10,490,450,200);
-
+const QRect  PLAYER_INFO_POSITION           = QRect(10,580,450,118);
 const int    END_TURN_BUTTON_FONT           = 16;
 
 

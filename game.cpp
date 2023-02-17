@@ -30,6 +30,7 @@ void Game::nextTurn() {
     if ( areAllActiveMonsterDown() )
         nextArenaRound();
     player->departHandCards();
+    player->addEnergy();
     player->shuffleDepartedCardsIntoDeck();
     activateActiveMonsterTurn();
     player->drawToHandSize();

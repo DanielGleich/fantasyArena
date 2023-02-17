@@ -59,6 +59,7 @@ public:
     void               playCardAgainstSomeone( Card *card, Someone *someone );
     void               playCardOnPlayer(Card *card);
     void               removeActiveMonster( Monster *monster );
+    void               addEnergy();
 
 signals:
     void               dataChanged();

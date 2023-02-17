@@ -78,7 +78,7 @@ Arena::Arena( QWidget *parent ) : QWidget( parent ) {
 
     setWindowTitle( "Arena" );
 
-    pbNextTurn->setGeometry(590,610,400,80);
+    pbNextTurn->setGeometry(590,600,400,80);
     pbNextTurn->setStyleSheet("font-size:32pt; font-family:Comic Sans MS; background-color:transparent; color:white; border:1px solid white;");
     update();
     connect( Game::get(), SIGNAL(dataChanged()), this, SLOT(update()) );
@@ -89,7 +89,7 @@ Arena::~Arena() {}
 
 void Arena::paintBackground(QPainter& p) {
     p.setBrush(GAME_BACKGROUND_COLOR);
-    p.drawRect(0,0,this->width(),this->height());
+    p.drawPixmap(0,0,QPixmap(":/arena/ArenaBG"));
 }
 
 void Arena::paintMonsterCards(QPainter& p) {
@@ -100,21 +100,36 @@ void Arena::paintMonsterCards(QPainter& p) {
         QPen pen(QPen(Qt::SolidPattern,2));
 
         p.setBrush(MONSTER_BACKGROUND_COLOR);
-        pen.setColor(QColor( MonsterPosition::getSelectedMonster() == monsterPosition ? MONSTER_SELECTED_BORDER_COLOR : MONSTER_BORDER_COLOR ));
-        p.setPen( pen );
+        if (MonsterPosition::getSelectedMonster() == monsterPosition) {
+//            pen.setColor(MONSTER_SELECTED_BORDER_COLOR);
+            p.setBrush(QBrush(MONSTER_SELECTED_BORDER_COLOR, Qt::SolidPattern));
+            p.setPen(Qt::NoPen);
+            p.drawRect(monsterPosition->getRect().x(), monsterPosition->getRect().y() + monsterPosition->getRect().height() + 1, monsterPosition->getRect().width(), 5);
+        }
 
-        p.drawRect(monsterPosition->getRect());
+        QPixmap monsterPng;
+
+        switch(monster->getId()) {
+            case 1: monsterPng.load(":/monsters/Goblin");break;
+            case 2: monsterPng.load(":/monsters/Ork"); break;
+            case 3: monsterPng.load(":/monsters/Troll"); break;
+            case 4: monsterPng.load(":/monsters/Skelett"); break;
+            case 5: monsterPng.load(":/monsters/Schamane"); break;
+        }
+          p.drawPixmap(monsterPosition->getRect().toRect(), monsterPng);
+//        p.drawRect(monsterPosition->getRect());
 
         pen.setColor(MONSTER_TEXT_COLOR);
         p.setPen( pen );
 
         QString monsterText = "" + Game::get()->getActiveMonsters()->at(i)->getName();
-        monsterText.append("\r\n\r\n");
-        monsterText.append("Skill: " + attack->getSkillName());
+        p.drawText(monsterPosition->getRect().x() + 15, monsterPosition->getRect().y(), monsterText);
+        monsterText = "Next Skill: " + attack->getSkillName();
         monsterText.append("\r\nAtk: "+ QString::number(Database::get()->getAttackOfMonster(monster->getId())/2));
         monsterText.append("\t\tDef: "+ QString::number(monster->getDefense()));
-        p.drawText(monsterPosition->getRect(),monsterText,QTextOption(Qt::AlignCenter));
-
+        QRectF temp = monsterPosition->getRect();
+        temp.moveTop(170);
+        p.drawText(temp,monsterText,QTextOption(Qt::AlignCenter));
         //hp bar
         QRect hpBackground = QRect(monsterPosition->getRect().x()+15,monsterPosition->getRect().y()+10,120,25);
         QRect hpBar = hpBackground;
@@ -136,93 +151,54 @@ void Arena::paintMonsterCards(QPainter& p) {
 
 void Arena::paintHandCards(QPainter& p) {
     p.resetTransform();
-    QPen pen(QPen(Qt::SolidPattern,2));
-    pen.setColor(PLAYER_CARD_FONT_COLOR);
-    p.setPen( pen );
     QList<Card*> handCards = Game::get()->getPlayer()->getHandCards();
     for (int i = 0; i < handCards.length(); i++)     {
         CardPosition *cardPosition = handCardRects->at(i);
         Card *card = cardPosition->getCard();
-        QPixmap icon;
+        QPixmap cardPng;
 
-        switch(card->getRange()) {
-        case 0: icon.load(":/pictogram/star"); break;
-        case 1: icon.load(":/pictogram/melee"); break;
-        default: icon.load(":/pictogram/ranged"); break;
+        switch(card->getId()) {
+        case 1: cardPng.load(":/cards/schuss"); break;
+        case 3: cardPng.load(":/cards/praezisionsschuss"); break;
+        case 10: cardPng.load(":/cards/schlag"); break;
+        case 11: cardPng.load(":/cards/schild"); break;
+        case 12: cardPng.load(":/cards/kugel"); break;
         }
 
         if(CardPosition::getSelectedCard() != nullptr && CardPosition::getSelectedCard()->getRect() == cardPosition->getRect()) {
-            pen.setColor(PLAYER_CARD_BORDER_COLOR);
             cardPosition->setRect(QRectF(
                                       clickPosition->x()-75,
                                       clickPosition->y()-90,
                                       cardPosition->getRect().width(),
                                       cardPosition->getRect().height()));
         }
-        p.setPen( pen );
-        p.setBrush(QBrush(PLAYER_CARD_BACKGROUND_COLOR));
-        p.drawRoundedRect(cardPosition->getRect(),5,5);
-        pen.setColor(PLAYER_CARD_FONT_COLOR);
-        p.setPen( pen );
-
-        QString cardText = card->getName();
-        cardText.append("\r\n\r\nAtk: ");
-        cardText.append(QString::number(Database::get()->getAttackValueOfCard(card->getId())));
-        cardText.append("\t\tDef: ");
-        cardText.append(QString::number(Database::get()->getDefenseValueOfCard(card->getId())));
-        cardText.append("\r\n\r\n");
-
-
-        int energyCost = card->getEnergyCost();
-        if (energyCost < 0) {
-            energyCost *= -1;
-            cardText.append("+");
-        } else if (energyCost > 0)
-            cardText.append("-");
-
-        cardText.append(QString::number(energyCost));
-        cardText.append(" Energie");
-
-        p.drawText(
-                    handCardRects->at(i)->getRect(),
-                    cardText,QTextOption(Qt::AlignCenter));
-        p.drawPixmap(handCardRects->at(i)->getRect().x()+5, handCardRects->at(i)->getRect().y()+5,32,32,icon);
+                p.drawPixmap(cardPosition->getRect().toRect(), cardPng);
     }
 }
 
 void Arena::paintPlayerInfo(QPainter& p) {
     Player* player = Game::get()->getPlayer();
-    QRect hpBackground = QRect(10,50,430,40);
-
-    QString playerString = "Spielerinfo";
-    QString defenseString = "Verteidigung: " + QString::number(player->getDefense());
-    QString energyString = QString::number(player->getEnergy()) + "/" + QString::number(player->getMaxEnergy())+ " Energie";
-    QString text = "\r\n";
-    text.append(defenseString+"\r\n");
-    text.append(energyString);
+    QRect hpBackground = QRect(3,15,430,40);
 
     //Rahmen
-    p.setBrush(playerSelected ? PLAYER_INFO_SELECTED_COLOR : Qt::NoBrush);
-    p.drawRect(PLAYER_INFO_POSITION);
-
+    p.setBrush(Qt::transparent);
+    p.setPen(QPen(playerSelected ? QColor(Qt::red) : Qt::NoPen,2));
+    if (playerSelected)
+        p.drawRect(PLAYER_INFO_POSITION);
 
     //Stats
     p.setFont(QFont("Comic Sans MS",12));
-    p.drawText(PLAYER_INFO_POSITION,text,QTextOption(Qt::AlignCenter));
-
     p.translate(PLAYER_INFO_POSITION.topLeft());
 
     //Überschrift
     p.setFont(QFont("Comic Sans MS",24));
-    p.drawText(QRect(10,5,200,250),playerString);
-
     //hp bar
     p.setPen(QPen(Qt::black));
     p.setBrush(QBrush(Qt::red));
     p.drawRect(hpBackground);
 
     p.setPen(Qt::NoPen);
-    p.setBrush(Qt::green);
+    p.setBrush(QColor(11, 107, 32));
 
     QRect hpBar = hpBackground;
     double width = hpBackground.width()* double(player->getLp())/ double(player->getMaxLp());
@@ -232,6 +208,11 @@ void Arena::paintPlayerInfo(QPainter& p) {
     p.setPen(Qt::white);
     p.drawText(hpBackground,QString::number(player->getLp())+"/"+QString::number(player->getMaxLp()),QTextOption(Qt::AlignCenter));
     p.setFont(QFont( "MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" ));
+
+
+    p.setFont(QFont("Comic Sans MS",24));
+    p.drawText(QPointF(175,99),QString::number(player->getDefense()));
+    p.drawText(QPointF(280,99),QString::number(player->getEnergy()) + "/" + QString::number(player->getMaxEnergy()));
 }
 
 void Arena::initPlayerCardsPositions() {
@@ -248,8 +229,7 @@ void Arena::initPlayerCardsPositions() {
 void Arena::initMonsterPositions() {
     QList<Monster*> *monsters = Game::get()->getActiveMonsters();
     for( int i = 0; i < monsters->count(); i++)
-        activeMonsterRects->append(new MonsterPosition(QRectF(220+(cardSize->width()+50)*i,100,cardSize->width(),cardSize->height()),monsters->at(i)));
-}
+        activeMonsterRects->append(new MonsterPosition(QRectF(220+(cardSize->width()+50)*i,70,cardSize->width(),cardSize->height()),monsters->at(i))); }
 
 Arena *Arena::get() {
     if ( !arena ) arena = new Arena;
@@ -309,7 +289,7 @@ void Arena::syncMonsterRects() {
         activeMonsterRects->removeOne(mp);
 
     for(int i = 0; i < activeMonsterRects->length(); i++) {
-        activeMonsterRects->at(i)->setRect(QRectF(220+(cardSize->width()+50)*i,100,cardSize->width(),cardSize->height()));
+        activeMonsterRects->at(i)->setRect(QRectF(220+(cardSize->width()+50)*i,70,cardSize->width(),cardSize->height()));
     }
     if (activeMonsters->count() > activeMonsterRects->count()) {
         QList<Monster*> missingRects;

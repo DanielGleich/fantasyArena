@@ -72,6 +72,11 @@ void Player::setEnergy( int value )
         energy = maxEnergy;
 }
 
+void Player::addEnergy()
+{
+    this->energy = energy + 1 > this->maxEnergy ? maxEnergy : energy + 1;
+}
+
 void Player::reduceEnergyBy( int value )
 {
     setEnergy( energy-value );

@@ -1,8 +1,20 @@
 <RCC>
-    <qresource prefix="/pictogram">
-        <file alias="melee">melee.png</file>
-        <file alias="ranged">ranged.png</file>
-        <file alias="star">star.png</file>
-        <file alias="arena">arena.jpg</file>
+    <qresource prefix="/pictogram"/>
+    <qresource prefix="/cards">
+        <file>kugel.png</file>
+        <file>praezisionsschuss.png</file>
+        <file>schild.png</file>
+        <file>schlag.png</file>
+        <file>schuss.png</file>
+    </qresource>
+    <qresource prefix="/monsters">
+        <file>Goblin.png</file>
+        <file>Ork.png</file>
+        <file>Schamane.png</file>
+        <file>Skelett.png</file>
+        <file>Troll.png</file>
+    </qresource>
+    <qresource prefix="/arena">
+        <file>ArenaBG.png</file>
     </qresource>
 </RCC>
